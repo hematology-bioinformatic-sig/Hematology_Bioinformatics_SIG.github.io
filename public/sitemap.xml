@@ -2,34 +2,37 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://hematology_bioinformatics_sig.gitee.io/blog/chinese/</loc>
+    <lastmod>2023-08-08T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://hematology_bioinformatics_sig.gitee.io/blog/</loc>
     <lastmod>2023-08-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://hematology_bioinformatics_sig.gitee.io/blog/post/</loc>
+    <loc>http://hematology_bioinformatics_sig.gitee.io/blog/chinese/post/</loc>
     <lastmod>2023-08-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://hematology_bioinformatics_sig.gitee.io/blog/post/2023-08-08-a-cross-package-bioconductor-workflow-for-analysing-methylation-array-data/</loc>
+    <loc>http://hematology_bioinformatics_sig.gitee.io/blog/chinese/post/2023-08-08-a-cross-package-bioconductor-workflow-for-analysing-methylation-array-data/</loc>
     <lastmod>2023-08-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://hematology_bioinformatics_sig.gitee.io/blog/friends/</loc>
+    <loc>http://hematology_bioinformatics_sig.gitee.io/blog/chinese/friends/</loc>
     <lastmod>2022-04-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://hematology_bioinformatics_sig.gitee.io/blog/archives/</loc>
+    <loc>http://hematology_bioinformatics_sig.gitee.io/blog/chinese/archives/</loc>
     <lastmod>2019-05-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://hematology_bioinformatics_sig.gitee.io/blog/contact/</loc>
+    <loc>http://hematology_bioinformatics_sig.gitee.io/blog/chinese/contact/</loc>
     <lastmod>2019-03-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://hematology_bioinformatics_sig.gitee.io/blog/about/</loc>
+    <loc>http://hematology_bioinformatics_sig.gitee.io/blog/chinese/about/</loc>
     <lastmod>2019-02-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://hematology_bioinformatics_sig.gitee.io/blog/imprint/</loc>
+    <loc>http://hematology_bioinformatics_sig.gitee.io/blog/chinese/imprint/</loc>
   </url><url>
     <loc>http://hematology_bioinformatics_sig.gitee.io/blog/categories/</loc>
   </url><url>
     <loc>http://hematology_bioinformatics_sig.gitee.io/blog/tags/index/</loc>
   </url><url>
-    <loc>http://hematology_bioinformatics_sig.gitee.io/blog/portfolio/</loc>
+    <loc>http://hematology_bioinformatics_sig.gitee.io/blog/chinese/portfolio/</loc>
   </url><url>
     <loc>http://hematology_bioinformatics_sig.gitee.io/blog/series/</loc>
   </url><url>

@@ -2,22 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>HBSig</title>
-    <link>http://hematology_bioinformatics_sig.gitee.io/blog/</link>
+    <link>http://hematology_bioinformatics_sig.gitee.io/blog/chinese/</link>
     <description>Recent content on HBSig</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
-    <lastBuildDate>Tue, 08 Aug 2023 00:00:00 +0000</lastBuildDate><atom:link href="http://hematology_bioinformatics_sig.gitee.io/blog/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>翻译 | A cross-package Bioconductor workflow for analysing methylation array data</title>
-      <link>http://hematology_bioinformatics_sig.gitee.io/blog/chinese/post/2023-08-08-a-cross-package-bioconductor-workflow-for-analysing-methylation-array-data/</link>
-      <pubDate>Tue, 08 Aug 2023 00:00:00 +0000</pubDate>
-      
-      <guid>http://hematology_bioinformatics_sig.gitee.io/blog/chinese/post/2023-08-08-a-cross-package-bioconductor-workflow-for-analysing-methylation-array-data/</guid>
-      
-        <description>Abstract Methylation in the human genome is known to be associated with development and disease.</description>
-      
-    </item>
-    
+    <lastBuildDate>Tue, 08 Aug 2023 00:00:00 +0000</lastBuildDate><atom:link href="http://hematology_bioinformatics_sig.gitee.io/blog/chinese/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>友链</title>
       <link>http://hematology_bioinformatics_sig.gitee.io/blog/chinese/friends/</link>

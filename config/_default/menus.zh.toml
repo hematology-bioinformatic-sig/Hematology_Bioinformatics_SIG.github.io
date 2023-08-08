@@ -2,34 +2,34 @@
   name = "首页"
   identifier = "home"
   weight = 100
-  url = "/"
+  url = "/chinese/home/"
 
   [[main]]
   name = "文章"
   weight = 200
   identifier = "posts"
-  url = "/post/"
+  url = "/chinese/post/"
 
   [[main]]
   name = "项目"
   weight = 300
   identifier = "portfolio"
-  url = "/portfolio/"
+  url = "/chinese/portfolio/"
 
   [[main]]
   name = "关于我们"
   weight = 400
   identifier = "about"
-  url = "/about/"
+  url = "/chinese/about/"
 
   [[main]]
   name = "友链"
   weight = 600
   identifier = "contact"
-  url = "/friends/"
+  url = "/chinese/friends/"
 
   [[footer]]
   name = "imprint"
   weight = 1
   identifier = "imprint"
-  url = "/imprint/"
+  url = "/chinese/imprint/"
