@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>HBSig</title>
+    <link>http://hematology_bioinformatics_sig.gitee.io/blog/</link>
+    <description>Recent content on HBSig</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <lastBuildDate>Tue, 08 Aug 2023 00:00:00 +0000</lastBuildDate><atom:link href="http://hematology_bioinformatics_sig.gitee.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>翻译 | A cross-package Bioconductor workflow for analysing methylation array data</title>
+      <link>http://hematology_bioinformatics_sig.gitee.io/blog/post/2023-08-08-a-cross-package-bioconductor-workflow-for-analysing-methylation-array-data/</link>
+      <pubDate>Tue, 08 Aug 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://hematology_bioinformatics_sig.gitee.io/blog/post/2023-08-08-a-cross-package-bioconductor-workflow-for-analysing-methylation-array-data/</guid>
+      
+        <description>Abstract Methylation in the human genome is known to be associated with development and disease.</description>
+      
+    </item>
+    
+    <item>
+      <title>友链</title>
+      <link>http://hematology_bioinformatics_sig.gitee.io/blog/friends/</link>
+      <pubDate>Sun, 10 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://hematology_bioinformatics_sig.gitee.io/blog/friends/</guid>
+      
+        <description>Hugo Certifications</description>
+      
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://hematology_bioinformatics_sig.gitee.io/blog/archives/</link>
+      <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://hematology_bioinformatics_sig.gitee.io/blog/archives/</guid>
+      
+        <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>http://hematology_bioinformatics_sig.gitee.io/blog/contact/</link>
+      <pubDate>Fri, 08 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://hematology_bioinformatics_sig.gitee.io/blog/contact/</guid>
+      
+        <description>Contact Page</description>
+      
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>http://hematology_bioinformatics_sig.gitee.io/blog/about/</link>
+      <pubDate>Thu, 28 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://hematology_bioinformatics_sig.gitee.io/blog/about/</guid>
+      
+        <description>Hugo, the world&#39;s fastest framework for building websites</description>
+      
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://hematology_bioinformatics_sig.gitee.io/blog/imprint/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://hematology_bioinformatics_sig.gitee.io/blog/imprint/</guid>
+      
+        <description></description>
+      
+    </item>
+    
+  </channel>
+</rss>
