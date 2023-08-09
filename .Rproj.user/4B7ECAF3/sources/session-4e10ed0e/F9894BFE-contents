@@ -1,7 +1,7 @@
-baseURL: http://hematology_bioinformatics_sig.gitee.io/blog
-languageCode: zh
-DefaultContentLanguage: zh
-title: Hematology Bioinformatic Special interest group
+baseURL: https://example.com
+languageCode: en
+DefaultContentLanguage: en
+title: Website of HBSIG
 theme: anatole
 summarylength: 10
 enableEmoji: yes
