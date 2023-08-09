@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>index on HBSig</title>
-    <link>http://hematology_bioinformatics_sig.gitee.io/blog/tags/index/</link>
-    <description>Recent content in index on HBSig</description>
+    <title>index on HBSIG</title>
+    <link>https://example.com/tags/index/</link>
+    <description>Recent content in index on HBSIG</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>zh</language><atom:link href="http://hematology_bioinformatics_sig.gitee.io/blog/tags/index/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language><atom:link href="https://example.com/tags/index/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Posts</title>
-      <link>http://hematology_bioinformatics_sig.gitee.io/blog/chinese/post/</link>
-      <pubDate>Tue, 08 Aug 2023 00:00:00 +0000</pubDate>
+      <link>https://example.com/post/</link>
+      <pubDate>Wed, 09 Aug 2023 00:00:00 +0000</pubDate>
       
-      <guid>http://hematology_bioinformatics_sig.gitee.io/blog/chinese/post/</guid>
+      <guid>https://example.com/post/</guid>
       
         <description></description>
       

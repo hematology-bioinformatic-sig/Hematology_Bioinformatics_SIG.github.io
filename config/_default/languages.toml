@@ -1,6 +1,5 @@
-[zh]
-title = "HBSig"
+[en]
+title = "HBSIG"
 weight = 1
-LanguageName = "ZH"
-contentDir = "content/"
-
+LanguageName = "EN"
+contentDir = "content/english"

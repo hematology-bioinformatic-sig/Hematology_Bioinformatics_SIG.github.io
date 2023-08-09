@@ -1,9 +1,9 @@
 
-title = "Blog for HBSig"
-author = "rainoffallingstar"
-copyright = "2022-2023"
-description = "enjoy your journey"
-profilePicture = "images/profile.jpeg"
+title = "I'm HBSIG"
+author = "HBSIG"
+copyright = "2020-2023"
+description = "Enjoy your journey"
+profilePicture = "images/profile.jpg"
 keywords = ""
 favicon = "favicons/"
 # example ["css/custom.css"]
@@ -56,16 +56,25 @@ use = "katex"  # options: "katex", "mathjax". default is "katex".
 
 ## Social links
 # use 'fab' when brand icons, use 'fas' when standard solid icons.
+[[socialIcons]]
+icon = "fab fa-linkedin"
+title = "Linkedin"
+url = "https://de.linkedin.com/"
 
 [[socialIcons]]
 icon = "fab fa-github"
 title = "GitHub"
-url = "https://github.com/hematology-bioinformatic-sig"
+url = "https://github.com/lxndrblz/anatole/"
+
+[[socialIcons]]
+icon = "fab fa-instagram"
+title = "instagram"
+url = "https://www.instagram.com/"
 
 [[socialIcons]]
 icon = "fas fa-envelope"
 title = "e-mail"
-url = "zyh3084989256@gmail.com"
+url = "mailto:mail@example.com"
 
 [mermaid]
 # enable = true
