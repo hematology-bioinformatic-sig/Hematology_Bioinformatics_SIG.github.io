@@ -24,4 +24,7 @@ title: About
 - Liuyu Wang
 - Honglin Guan
 - Yixin Guo
+- Ludan Zhang
+- Shiyu Ma
+- Weiling Dong
 
