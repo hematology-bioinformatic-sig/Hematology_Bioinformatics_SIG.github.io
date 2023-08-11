@@ -3,8 +3,8 @@ portfolioitems:
   - title: Coding Projects
     portfolioitem:
       - name: 血液科用药助手
-        image: '/images/portfolio/code.jpg'
-        link: https://rainoffallingstar.shinyapps.io/survival-analysis-shiny/
+        image: '/images/portfolio/theme-animals_0001.jpg'
+        link: https://rainoffallingstar.shinyapps.io/hemat_drug_assistant/
         linktext: 'Visit project website'
         description: '一站式血液科常用药物方案计算'
         tags:
@@ -17,7 +17,7 @@ portfolioitems:
           - Yanhua Zheng
           - Qinchuan Yu
       - name: 预后分析工具
-        image: '/images/portfolio/code.jpg'
+        image: '/images/portfolio/theme-animals_0002.jpg'
         link: https://rainoffallingstar.shinyapps.io/survival-analysis-shiny/
         description: '快速生存分析及可出版级作图'
         status: 'Finished'
@@ -29,6 +29,7 @@ portfolioitems:
           - Tag R
           - Tag Shiny
       - name: HBSIGRocker
+        image: '/images/portfolio/theme-animals_0003.jpg'
         link: https://gitee.com/Hematology_Bioinformatics_SIG/HBSIGRocker
         linktext: 'Visit project website'
         status: 'On Held'
@@ -40,21 +41,21 @@ portfolioitems:
   - title: Research
     portfolioitem:
       - name: gse_differential_matrix
-        image: '/images/portfolio/code.jpg'
+        image: '/images/portfolio/theme-animals_0004.jpg'
         link: https://gitee.com/Hematology_Bioinformatics_SIG/gse_differential_matrix
         description: 'GSE数据差异表达分析及shiny'
         tags:
           - Tag Bioconductor
           - Tag GSE
       - name: AML-models
-        image: '/images/portfolio/code.jpg'
+        image: '/images/portfolio/theme-animals_0005.jpg'
         link: https://gitee.com/Hematology_Bioinformatics_SIG/aml_cop
         description: 'AML相关临床模型开发'
         tags:
           - Tag machine learning
           - Tag R
       - name: TGCA pre-process
-        image: '/images/portfolio/code.jpg'
+        image: '/images/portfolio/theme-animals_0006.jpg'
         link: https://gitee.com/Hematology_Bioinformatics_SIG/heamt_tgca_analysis
         description: 'TGCA数据下载及预处理'
         tags:
