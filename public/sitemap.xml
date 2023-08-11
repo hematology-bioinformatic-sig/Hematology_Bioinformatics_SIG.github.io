@@ -3,10 +3,22 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://example.com/</loc>
-    <lastmod>2023-08-08T00:00:00+00:00</lastmod>
+    <lastmod>2023-08-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://example.com/post/2023-08-11-hbsig-guildlines-to-dos/</loc>
+    <lastmod>2023-08-11T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://example.com/post/</loc>
-    <lastmod>2023-08-08T00:00:00+00:00</lastmod>
+    <lastmod>2023-08-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://example.com/post/2023-08-11-bioinformatics-with-bioconductor/</loc>
+    <lastmod>2023-08-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://example.com/post/2023-08-11-introduction-to-bioconductor-for-sequence-data/</loc>
+    <lastmod>2023-08-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://example.com/post/2023-08-11-lc-ms-ms-data-analysis-with-xcms/</loc>
+    <lastmod>2023-08-11T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://example.com/post/2023-08-08-a-cross-package-bioconductor-workflow-for-analysing-methylation-array-data/</loc>
     <lastmod>2023-08-08T00:00:00+00:00</lastmod>

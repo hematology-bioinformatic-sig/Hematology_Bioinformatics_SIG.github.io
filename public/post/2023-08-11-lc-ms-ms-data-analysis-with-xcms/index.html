@@ -1,0 +1,1089 @@
+<!DOCTYPE html>
+<html
+  dir="ltr"
+  lang="en"
+  data-theme=""
+  
+    class="html theme--light"
+  
+><head>
+  <title>
+    
+      
+        翻译|LC-MS/MS data analysis with xcms |
+      HBSIG
+
+  </title>
+
+  
+  <meta charset="utf-8" /><meta name="generator" content="Hugo 0.92.2" /><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
+  <meta name="author" content="HBSIG" />
+  <meta
+    name="description"
+    content="Enjoy your journey"
+  />
+  
+  
+    
+    
+    <link
+      rel="stylesheet"
+      href="/scss/main.min.1147aa5bacb4bce677a0e264073829caedb82fd18ea07a5f1d80521f539d1c45.css"
+      integrity="sha256-EUeqW6y0vOZ3oOJkBzgpyu24L9GOoHpfHYBSH1OdHEU="
+      crossorigin="anonymous"
+      type="text/css"
+    />
+  
+
+  
+  <link
+    rel="stylesheet"
+    href="/css/markupHighlight.min.73ccfdf28df555e11009c13c20ced067af3cb021504cba43644c705930428b00.css"
+    integrity="sha256-c8z98o31VeEQCcE8IM7QZ688sCFQTLpDZExwWTBCiwA="
+    crossorigin="anonymous"
+    type="text/css"
+  />
+  
+  
+  <link
+    rel="stylesheet"
+    href="/fontawesome/css/fontawesome.min.7d272de35b410fb165377550cdf9c4d3a80fbbcc961e111914e4d5c0eaf5729f.css"
+    integrity="sha256-fSct41tBD7FlN3VQzfnE06gPu8yWHhEZFOTVwOr1cp8="
+    crossorigin="anonymous"
+    type="text/css"
+  />
+  
+  <link
+    rel="stylesheet"
+    href="/fontawesome/css/solid.min.55d8333481b07a08e07cf6f37319753a2b47e99f4c395394c5747b48b495aa9b.css"
+    integrity="sha256-VdgzNIGwegjgfPbzcxl1OitH6Z9MOVOUxXR7SLSVqps="
+    crossorigin="anonymous"
+    type="text/css"
+  />
+  
+  <link
+    rel="stylesheet"
+    href="/fontawesome/css/regular.min.a7448d02590b43449364b6b5922ed9af5410abb4de4238412a830316dedb850b.css"
+    integrity="sha256-p0SNAlkLQ0STZLa1ki7Zr1QQq7TeQjhBKoMDFt7bhQs="
+    crossorigin="anonymous"
+    type="text/css"
+  />
+  
+  <link
+    rel="stylesheet"
+    href="/fontawesome/css/brands.min.9ed75a5d670c953fe4df935937674b4646f92674367e9e66eb995bb04e821647.css"
+    integrity="sha256-ntdaXWcMlT/k35NZN2dLRkb5JnQ2fp5m65lbsE6CFkc="
+    crossorigin="anonymous"
+    type="text/css"
+  />
+  
+  <link rel="shortcut icon" href="/favicons/favicon.ico" type="image/x-icon" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicons/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicons/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicons/favicon-16x16.png" />
+
+  <link rel="canonical" href="https://example.com/post/2023-08-11-lc-ms-ms-data-analysis-with-xcms/" />
+
+  
+  
+  
+  
+  <script
+    type="text/javascript"
+    src="/js/anatole-header.min.46e6a54097480084f8f52c20ca1aa7425b4fad17029a887fd4017b12e311a72d.js"
+    integrity="sha256-RualQJdIAIT49SwgyhqnQltPrRcCmoh/1AF7EuMRpy0="
+    crossorigin="anonymous"
+  ></script>
+
+  
+    
+    
+    <script
+      type="text/javascript"
+      src="/js/anatole-theme-switcher.min.4c31f3cf7e8e609c897dba88aecac0e8db1ebb4e5c841d3f9ffb01d463973678.js"
+      integrity="sha256-TDHzz36OYJyJfbqIrsrA6Nseu05chB0/n/sB1GOXNng="
+      crossorigin="anonymous"
+    ></script>
+  
+
+  
+
+
+  
+  <meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://example.com/images/site-feature-image.png"/>
+
+<meta name="twitter:title" content="翻译|LC-MS/MS data analysis with xcms"/>
+<meta name="twitter:description" content="LC-MS/MS data analysis with xcms 1Introduction 介绍 Metabolite identification is an important step in non-targeted metabolomics and requires different steps."/>
+
+
+
+  
+  <meta property="og:title" content="翻译|LC-MS/MS data analysis with xcms" />
+<meta property="og:description" content="LC-MS/MS data analysis with xcms 1Introduction 介绍 Metabolite identification is an important step in non-targeted metabolomics and requires different steps." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://example.com/post/2023-08-11-lc-ms-ms-data-analysis-with-xcms/" /><meta property="og:image" content="https://example.com/images/site-feature-image.png"/><meta property="article:section" content="post" />
+<meta property="article:published_time" content="2023-08-11T00:00:00+00:00" />
+<meta property="article:modified_time" content="2023-08-11T00:00:00+00:00" /><meta property="og:site_name" content="HBSIG" />
+
+
+
+
+  
+  
+  
+  
+  <script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "articleSection": "post",
+        "name": "翻译|LC-MS\/MS data analysis with xcms",
+        "headline": "翻译|LC-MS\/MS data analysis with xcms",
+        "alternativeHeadline": "",
+        "description": "
+      
+        LC-MS\/MS data analysis with xcms 1Introduction 介绍 Metabolite identification is an important step in non-targeted metabolomics and requires different steps.
+
+
+      
+
+
+    ",
+        "inLanguage": "en",
+        "isFamilyFriendly": "true",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https:\/\/example.com\/post\/2023-08-11-lc-ms-ms-data-analysis-with-xcms\/"
+        },
+        "author" : {
+            "@type": "Person",
+            "name": "zhengyanhua"
+        },
+        "creator" : {
+            "@type": "Person",
+            "name": "zhengyanhua"
+        },
+        "accountablePerson" : {
+            "@type": "Person",
+            "name": "zhengyanhua"
+        },
+        "copyrightHolder" : {
+            "@type": "Person",
+            "name": "zhengyanhua"
+        },
+        "copyrightYear" : "2023",
+        "dateCreated": "2023-08-11T00:00:00.00Z",
+        "datePublished": "2023-08-11T00:00:00.00Z",
+        "dateModified": "2023-08-11T00:00:00.00Z",
+        "publisher":{
+            "@type":"Organization",
+            "name": "zhengyanhua",
+            "url": "https://example.com",
+            "logo": {
+                "@type": "ImageObject",
+                "url": "https:\/\/example.com\/favicons\/favicon-32x32.png",
+                "width":"32",
+                "height":"32"
+            }
+        },
+        "image": 
+      [
+        
+        "https://example.com/images/site-feature-image.png"
+
+
+      
+      ]
+
+    ,
+        "url" : "https:\/\/example.com\/post\/2023-08-11-lc-ms-ms-data-analysis-with-xcms\/",
+        "wordCount" : "5009",
+        "genre" : [ ],
+        "keywords" : [ ]
+    }
+  </script>
+
+
+</head>
+<body class="body">
+    <div class="wrapper">
+      <aside
+        
+          class="wrapper__sidebar"
+        
+      ><div
+  class="sidebar
+    animated fadeInDown
+  "
+>
+  <div class="sidebar__content">
+    <div class="sidebar__introduction">
+      <img
+        class="sidebar__introduction-profileimage"
+        src="/images/profile.jpg"
+        alt="profile picture"
+      />
+      
+        <div class="sidebar__introduction-title">
+          <a href="/">HBSIG</a>
+        </div>
+      
+      <div class="sidebar__introduction-description">
+        <p>Enjoy your journey</p>
+      </div>
+    </div>
+    <ul class="sidebar__list">
+      
+        <li class="sidebar__list-item">
+          <a
+            href="https://de.linkedin.com/"
+            target="_blank"
+            rel="noopener me"
+            aria-label="Linkedin"
+            title="Linkedin"
+          >
+            <i class="fab fa-linkedin fa-2x" aria-hidden="true"></i>
+          </a>
+        </li>
+      
+        <li class="sidebar__list-item">
+          <a
+            href="https://github.com/hematology-bioinformatic-sig"
+            target="_blank"
+            rel="noopener me"
+            aria-label="GitHub"
+            title="GitHub"
+          >
+            <i class="fab fa-github fa-2x" aria-hidden="true"></i>
+          </a>
+        </li>
+      
+        <li class="sidebar__list-item">
+          <a
+            href="https://www.instagram.com/"
+            target="_blank"
+            rel="noopener me"
+            aria-label="instagram"
+            title="instagram"
+          >
+            <i class="fab fa-instagram fa-2x" aria-hidden="true"></i>
+          </a>
+        </li>
+      
+        <li class="sidebar__list-item">
+          <a
+            href="mailto:zyh3084989256@gmail.com"
+            target="_blank"
+            rel="noopener me"
+            aria-label="e-mail"
+            title="e-mail"
+          >
+            <i class="fas fa-envelope fa-2x" aria-hidden="true"></i>
+          </a>
+        </li>
+      
+    </ul>
+  </div><footer class="footer footer__sidebar">
+  <ul class="footer__list">
+    <li class="footer__item">
+      &copy;
+      
+        2020-2023
+      
+    </li>
+    
+      <li class="footer__item">
+        <a
+          class="link"
+          href="/imprint/"
+          
+          title=""
+        >
+          imprint
+        </a>
+      </li>
+    
+  </ul>
+</footer>
+  
+  <script
+    type="text/javascript"
+    src="/js/medium-zoom.min.fae9ac8895995fe91958b3954be11e96025824a04770726a3531e119ddd2d576.js"
+    integrity="sha256-&#43;umsiJWZX&#43;kZWLOVS&#43;EelgJYJKBHcHJqNTHhGd3S1XY="
+    crossorigin="anonymous"
+  ></script></div>
+</aside>
+      <main
+        
+          class="wrapper__main"
+        
+      >
+        <header class="header"><div
+  class="
+    animated fadeInDown
+  "
+>
+  <a role="button" class="navbar-burger" data-target="navMenu" aria-label="menu" aria-expanded="false">
+    <span aria-hidden="true" class="navbar-burger__line"></span>
+    <span aria-hidden="true" class="navbar-burger__line"></span>
+    <span aria-hidden="true" class="navbar-burger__line"></span>
+  </a>
+  <nav class="nav">
+    <ul class="nav__list" id="navMenu">
+      
+      
+        
+        
+          <li class="nav__list-item">
+            
+            <a
+              
+              href="/"
+              
+              title=""
+              >Home</a
+            >
+          </li>
+        
+
+      
+        
+        
+          <li class="nav__list-item">
+            
+            <a
+              
+              href="/post/"
+              
+              title=""
+              >Posts</a
+            >
+          </li>
+        
+
+      
+        
+        
+          <li class="nav__list-item">
+            
+            <a
+              
+              href="/portfolio/"
+              
+              title=""
+              >Portfolio</a
+            >
+          </li>
+        
+
+      
+        
+        
+          <li class="nav__list-item">
+            
+            <a
+              
+              href="/about/"
+              
+              title=""
+              >About</a
+            >
+          </li>
+        
+
+      
+        
+        
+          <li class="nav__list-item">
+            
+            <a
+              
+              href="/contact/"
+              
+              title=""
+              >Contact</a
+            >
+          </li>
+        
+
+      
+    </ul>
+    <ul class="nav__list nav__list--end">
+      
+      
+        <li class="nav__list-item">
+          <div class="themeswitch">
+            <a title="Switch Theme">
+              <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+            </a>
+          </div>
+        </li>
+      
+    </ul>
+  </nav>
+</div>
+</header>
+  <div
+    class="post 
+      animated fadeInDown
+    "
+  >
+    
+    <div class="post__content">
+      <h1>翻译|LC-MS/MS Data Analysis With Xcms</h1>
+      
+        <ul class="post__meta">
+          <li class="post__meta-item">
+            <em class="fas fa-calendar-day post__meta-icon"></em>
+            <span class="post__meta-text"
+              >
+                
+                  11/8/2023
+                
+
+              
+            </span>
+          </li>
+          <li class="post__meta-item">
+            <em class="fas fa-stopwatch post__meta-icon"></em>
+            <span class="post__meta-text">24-minute read</span>
+          </li>
+        </ul>
+      <h1 id="lc-msms-data-analysis-with-xcms">LC-MS/MS data analysis with xcms</h1>
+<h2 id="1introduction-介绍">1Introduction 介绍</h2>
+<p>Metabolite identification is an important step in non-targeted metabolomics and requires different steps. One involves the use of tandem mass spectrometry to generate fragmentation spectra of detected metabolites (LC-MS/MS), which are then compared to fragmentation spectra of known metabolites. Different approaches exist for the generation of these fragmentation spectra, whereas the most used is data dependent acquisition (DDA) also known as the top-n method. In this method the top N most intense m/z values from a MS1 scan are selected for fragmentation in the next N scans before the cycle starts again. This method allows to generate clean MS2 fragmentation spectra on the fly during acquisition without the need for further experiments, but suffers from poor coverage of the detected metabolites (since only a limited number of ions are fragmented).</p>
+<blockquote>
+<p>代谢产物鉴定是非靶向代谢组学中的一个重要步骤，需要不同的步骤。其中之一涉及使用串联质谱法生成检测到的代谢物的裂解光谱（LC-MS/MS），然后将其与已知代谢物的裂解光谱进行比较。生成这些碎片谱的方法不同，而最常用的是数据相关采集（DDA），也称为top-n方法。在该方法中，在循环再次开始之前，从MS1扫描中选择前N个最密集的m/z值，以在接下来的N次扫描中进行碎片化。该方法允许在采集过程中动态生成干净的MS2碎片光谱，无需进一步实验，但检测到的代谢物覆盖率低（因为只有有限数量的离子被碎片化）。</p>
+</blockquote>
+<p>Data independent approaches (DIA) like Bruker bbCID, Agilent AllIons or Waters MSe don’t use such a preselection, but rather fragment all detected molecules at once. They are using alternating schemes with scan of low and high collision energy to collect MS1 and MS2 data. Using this approach, there is no problem in coverage, but the relation between the precursor and fragment masses is lost leading to chimeric spectra. Sequential Window Acquisition of all Theoretical Mass Spectra (or SWATH [1]) combines both approaches through a middle-way approach. There is no precursor selection and acquisition is independent of acquired data, but rather than isolating all precusors at once, defined windows (i.e. ranges of m/z values) are used and scanned. This reduces the overlap of fragment spectra while still keeping a high coverage.</p>
+<blockquote>
+<p>与数据无关的方法（DIA），如Bruker bbCID、安捷伦AllIons或Waters MSe，不使用这种预选，而是一次将所有检测到的分子片段化。他们使用交替方案，扫描低碰撞能量和高碰撞能量，以收集MS1和MS2数据。使用这种方法，覆盖率没有问题，但前驱体和片段质量之间的关系丢失，导致嵌合光谱。所有理论质谱的连续窗口获取（或SWATH[1]）通过中间方法将这两种方法结合起来。没有前兆选择，采集独立于采集的数据，而是使用和扫描定义的窗口（即m/z值的范围），而不是一次隔离所有前兆。这减少了片段光谱的重叠，同时仍保持高覆盖率。</p>
+</blockquote>
+<p>This document showcases the analysis of two small LC-MS/MS data sets using xcms. The data files used are reversed-phase LC-MS/MS runs from the Agilent Pesticide mix obtained from a Sciex 6600 Triple ToF operated in SWATH acquisition mode. For comparison a DDA file from the same sample is included.</p>
+<blockquote>
+<p>本文展示了使用xcms对两个小型LC-MS/MS数据集的分析。使用的数据文件是从安捷伦农药混合物中运行的反相LC-MS/MS，安捷伦农药混合物是从Sciex 6600三重ToF中获得的，该ToF在SWATH采集模式下运行。为了进行比较，包括来自同一样本的DDA文件。</p>
+</blockquote>
+<h2 id="2analysis-of-dda-data-分析dda数据">2Analysis of DDA data 分析DDA数据</h2>
+<p>Below we load the example DDA data set using the readMSData function from the MSnbase package.</p>
+<p>library(xcms)</p>
+<p>dda_file &lt;- system.file(&ldquo;TripleTOF-SWATH&rdquo;, &ldquo;PestMix1_DDA.mzML&rdquo;,
+package = &ldquo;msdata&rdquo;)
+dda_data &lt;- readMSData(dda_file, mode = &ldquo;onDisk&rdquo;)
+The variable dda_data contains now all MS1 and MS2 spectra from the specified mzML file. The number of spectra for each MS level is listed below.</p>
+<p>table(msLevel(dda_data))</p>
+<h2 id="heading"></h2>
+<h2 id="1----2">1    2</h2>
+<h2 id="1504-2238">1504 2238</h2>
+<p>For the MS2 spectra we can get the m/z of the precursor ion with the precursorMz function. Below we first filter the data set by MS level, extract the precursor m/z and call head to just show the first 6 elements. For easier readability we use the forward pipe operator %&gt;% from the magrittr package.</p>
+<blockquote>
+<p>对于MS2光谱，我们可以使用precursorMz函数获得前体离子的m/z。下面我们首先按MS级别过滤数据集，提取前驱体m/z并调用头以仅显示前6个元素。为了便于阅读，我们使用magrittr包中的正向管道操作符%&gt;%。</p>
+</blockquote>
+<p>library(magrittr)</p>
+<p>dda_data %&gt;%
+filterMsLevel(2L) %&gt;%
+precursorMz() %&gt;%
+head()</p>
+<h2 id="f1s1570--f1s1588--f1s1592--f1s1594--f1s1595--f1s1596">F1.S1570  F1.S1588  F1.S1592  F1.S1594  F1.S1595  F1.S1596</h2>
+<h2 id="13096578-38825426--8993779--8399569-37122409-38825226">130.96578 388.25426  89.93779  83.99569 371.22409 388.25226</h2>
+<p>With the precursorIntensity function it is also possible to extract the intensity of the precursor ion.</p>
+<blockquote>
+<p>利用前兆强度函数也可以提取前体离子的强度。</p>
+</blockquote>
+<p>dda_data %&gt;%
+filterMsLevel(2L) %&gt;%
+precursorIntensity() %&gt;%
+head()</p>
+<h2 id="f1s1570-f1s1588-f1s1592-f1s1594-f1s1595-f1s1596">F1.S1570 F1.S1588 F1.S1592 F1.S1594 F1.S1595 F1.S1596</h2>
+<h2 id="0--------0--------0--------0--------0--------0">0        0        0        0        0        0</h2>
+<p>Some manufacturers (like Sciex for the present test data) don’t define/export the precursor intensity and thus either NA or 0 is reported. We can however use the estimatePrecursorIntensity function from the xcms package to determine the precursor intensity for a MS 2 spectrum based on the intensity of the respective ion in the previous MS1 scan (note that with method = &ldquo;interpolation&rdquo; the precursor intensity would be defined based on interpolation between the intensity in the previous and subsequent MS1 scan). Below we estimate the precursor intensities, on the full data (for MS1 spectra a NA value is reported). Note also that we use xcms:: to call the function from the xcms package, because a function with the same name is also implemented in the Spectra package, which would however not support OnDiskMSnExp objects as input.</p>
+<blockquote>
+<p>一些制造商（如目前测试数据的Sciex）没有定义/输出前体强度，因此报告为NA或0。然而，我们可以使用xcms软件包中的estimatePrecursorIntensity函数，根据先前MS1扫描中各个离子的强度来确定MS 2光谱的前体强度（注意，使用方法=“插值”时，前体强度将根据先前和后续MS1扫描中的强度之间的插值来定义）。下面，我们根据完整数据估计前驱体强度（对于MS1光谱，报告了NA值）。还要注意，我们使用xcms：：从xcms包中调用函数，因为在Spectra包中也实现了一个同名函数，但它不支持将OnDiskMSnExp对象作为输入。</p>
+</blockquote>
+<p>prec_int &lt;- xcms::estimatePrecursorIntensity(dda_data)</p>
+<p>We next set the precursor intensity in the spectrum metadata of dda_data. So that it can be extracted later with the precursorIntensity function.</p>
+<blockquote>
+<p>接下来，我们在dda_数据的光谱元数据中设置前兆强度。这样以后就可以用前兆强度函数进行提取。</p>
+</blockquote>
+<p>fData(dda_data)$precursorIntensity &lt;- prec_int</p>
+<p>dda_data %&gt;%
+filterMsLevel(2L) %&gt;%
+precursorIntensity() %&gt;%
+head()</p>
+<h2 id="f1s1570--f1s1588--f1s1592--f1s1594--f1s1595--f1s1596-1">F1.S1570  F1.S1588  F1.S1592  F1.S1594  F1.S1595  F1.S1596</h2>
+<h2 id="09691072-30772917-03885723-03215049-16329483-44057989">0.9691072 3.0772917 0.3885723 0.3215049 1.6329483 4.4057989</h2>
+<p>Next we perform the chromatographic peak detection on the MS level 1 data with the findChromPeaks method. Below we define the settings for a centWave-based peak detection and perform the analysis.</p>
+<blockquote>
+<p>接下来，我们使用findChromPeaks方法对MS 1级数据进行色谱峰检测。下面我们定义了基于centWave的峰值检测的设置，并进行了分析。</p>
+</blockquote>
+<p>cwp &lt;- CentWaveParam(snthresh = 5, noise = 100, ppm = 10,
+peakwidth = c(3, 30))
+dda_data &lt;- findChromPeaks(dda_data, param = cwp)
+In total 112 peaks were identified in the present data set.</p>
+<p>The advantage of LC-MS/MS data is that (MS1) ions are fragmented and the corresponding MS2 spectra measured. Thus, for some of the ions (identified as MS1 chromatographic peaks) MS2 spectra are available. These can facilitate the annotation of the respective MS1 chromatographic peaks (or MS1 features after a correspondence analysis). Spectra for identified chromatographic peaks can be extracted with the chromPeakSpectra method. MS2 spectra with their precursor m/z and retention time within the rt and m/z range of the chromatographic peak are returned. Parameter return.type allows to define in which format these are returned. With return.type = &ldquo;List&rdquo; or return.type = &ldquo;Spectra&rdquo; the data is represented by a Spectra object from the Spectra.</p>
+<blockquote>
+<p>LC-MS/MS数据的优点是（MS1）离子被碎片化，并测量相应的MS2光谱。因此，对于某些离子（确定为MS1色谱峰），MS2光谱可用。这些可以帮助注释各自的MS1色谱峰（或对应分析后的MS1特征）。已识别色谱峰的光谱可以用色谱峰谱法提取。返回MS2光谱及其前体m/z和色谱峰的rt和m/z范围内的保留时间。参数返回。类型允许定义返回的格式。返回。键入=“List”或return。type=“光谱”数据由光谱中的光谱对象表示。</p>
+</blockquote>
+<p>library(Spectra)
+dda_spectra &lt;- chromPeakSpectra(
+dda_data, msLevel = 2L, return.type = &ldquo;Spectra&rdquo;)
+dda_spectra</p>
+<h2 id="msn-data-spectra-with-150-spectra-in-a-msbackendmzr-backend">MSn data (Spectra) with 150 spectra in a MsBackendMzR backend:</h2>
+<h2 id="mslevel-----rtime-scanindex">msLevel     rtime scanIndex</h2>
+<h2 id="integer-numeric-integer"><integer> <numeric> <integer></h2>
+<h2 id="f1s1812---------2---237869------1812">F1.S1812         2   237.869      1812</h2>
+<h2 id="f1s1846---------2---241299------1846">F1.S1846         2   241.299      1846</h2>
+<h2 id="f1s2446---------2---326583------2446">F1.S2446         2   326.583      2446</h2>
+<h2 id="f1s2450---------2---327113------2450">F1.S2450         2   327.113      2450</h2>
+<h2 id="f1s2502---------2---330273------2502">F1.S2502         2   330.273      2502</h2>
+<h2 id="--------------------------">&hellip;            &hellip;       &hellip;       &hellip;</h2>
+<h2 id="f1s5110---------2---574725------5110">F1.S5110         2   574.725      5110</h2>
+<h2 id="f1s5115---------2---575255------5115">F1.S5115         2   575.255      5115</h2>
+<h2 id="f1s5272---------2---596584------5272">F1.S5272         2   596.584      5272</h2>
+<h2 id="f1s5236---------2---592424------5236">F1.S5236         2   592.424      5236</h2>
+<h2 id="f1s5266---------2---596054------5266">F1.S5266         2   596.054      5266</h2>
+<h2 id="-38-more-variablescolumns">&hellip; 38 more variables/columns.</h2>
+<h2 id="heading-1"></h2>
+<h2 id="files">file(s):</h2>
+<h2 id="pestmix1_ddamzml">PestMix1_DDA.mzML</h2>
+<p>By default chromPeakSpectra returns all spectra associated with a MS1 chromatographic peak, but parameter method allows to choose and return only one spectrum per peak (have a look at the ?chromPeakSpectra help page for more details). Also, it would be possible to extract MS1 spectra for each peak by specifying msLevel = 1L in the call above (e.g. to evaluate the full MS1 signal at the peak’s apex position).</p>
+<blockquote>
+<p>默认情况下，chromPeakSpectra返回与MS1色谱峰相关的所有光谱，但参数方法允许每个峰只选择和返回一个光谱（有关更多详细信息，请参阅？chromPeakSpectra帮助页面）。此外，可以通过在上述调用中指定msLevel=1L来提取每个峰值的MS1频谱（例如，评估峰值顶点位置的完整MS1信号）。</p>
+</blockquote>
+<p>In the example above we selected to return the data as a Spectra object. Spectra variables &ldquo;peak_id&rdquo; and &ldquo;peak_index&rdquo; contain the identifiers and the index (in the chromPeaks matrix) of the chromatographic peaks the MS2 spectrum is associated with.</p>
+<blockquote>
+<p>在上面的示例中，我们选择将数据作为光谱对象返回。光谱变量“peak\u id”和“peak\u index”包含MS2光谱相关色谱峰的标识符和索引（在色谱峰矩阵中）。</p>
+</blockquote>
+<p>dda_spectra$peak_id</p>
+<h2 id="1-cp004-cp004-cp005-cp006-cp006-cp008-cp008-cp011-cp011">[1] &ldquo;CP004&rdquo; &ldquo;CP004&rdquo; &ldquo;CP005&rdquo; &ldquo;CP006&rdquo; &ldquo;CP006&rdquo; &ldquo;CP008&rdquo; &ldquo;CP008&rdquo; &ldquo;CP011&rdquo; &ldquo;CP011&rdquo;</h2>
+<h2 id="10-cp012-cp012-cp013-cp013-cp013-cp013-cp014-cp014-cp014">[10] &ldquo;CP012&rdquo; &ldquo;CP012&rdquo; &ldquo;CP013&rdquo; &ldquo;CP013&rdquo; &ldquo;CP013&rdquo; &ldquo;CP013&rdquo; &ldquo;CP014&rdquo; &ldquo;CP014&rdquo; &ldquo;CP014&rdquo;</h2>
+<h2 id="19-cp014-cp018-cp022-cp022-cp022-cp022-cp025-cp025-cp025">[19] &ldquo;CP014&rdquo; &ldquo;CP018&rdquo; &ldquo;CP022&rdquo; &ldquo;CP022&rdquo; &ldquo;CP022&rdquo; &ldquo;CP022&rdquo; &ldquo;CP025&rdquo; &ldquo;CP025&rdquo; &ldquo;CP025&rdquo;</h2>
+<h2 id="28-cp025-cp026-cp026-cp026-cp026-cp033-cp033-cp034-cp034">[28] &ldquo;CP025&rdquo; &ldquo;CP026&rdquo; &ldquo;CP026&rdquo; &ldquo;CP026&rdquo; &ldquo;CP026&rdquo; &ldquo;CP033&rdquo; &ldquo;CP033&rdquo; &ldquo;CP034&rdquo; &ldquo;CP034&rdquo;</h2>
+<h2 id="37-cp034-cp034-cp034-cp035-cp035-cp035-cp041-cp041-cp041">[37] &ldquo;CP034&rdquo; &ldquo;CP034&rdquo; &ldquo;CP034&rdquo; &ldquo;CP035&rdquo; &ldquo;CP035&rdquo; &ldquo;CP035&rdquo; &ldquo;CP041&rdquo; &ldquo;CP041&rdquo; &ldquo;CP041&rdquo;</h2>
+<h2 id="46-cp042-cp042-cp042-cp042-cp042-cp043-cp048-cp048-cp050">[46] &ldquo;CP042&rdquo; &ldquo;CP042&rdquo; &ldquo;CP042&rdquo; &ldquo;CP042&rdquo; &ldquo;CP042&rdquo; &ldquo;CP043&rdquo; &ldquo;CP048&rdquo; &ldquo;CP048&rdquo; &ldquo;CP050&rdquo;</h2>
+<h2 id="55-cp050-cp050-cp050-cp051-cp051-cp051-cp052-cp052-cp052">[55] &ldquo;CP050&rdquo; &ldquo;CP050&rdquo; &ldquo;CP050&rdquo; &ldquo;CP051&rdquo; &ldquo;CP051&rdquo; &ldquo;CP051&rdquo; &ldquo;CP052&rdquo; &ldquo;CP052&rdquo; &ldquo;CP052&rdquo;</h2>
+<h2 id="64-cp054-cp055-cp055-cp056-cp056-cp056-cp057-cp057-cp057">[64] &ldquo;CP054&rdquo; &ldquo;CP055&rdquo; &ldquo;CP055&rdquo; &ldquo;CP056&rdquo; &ldquo;CP056&rdquo; &ldquo;CP056&rdquo; &ldquo;CP057&rdquo; &ldquo;CP057&rdquo; &ldquo;CP057&rdquo;</h2>
+<h2 id="73-cp057-cp057-cp061-cp061-cp061-cp061-cp065-cp065-cp066">[73] &ldquo;CP057&rdquo; &ldquo;CP057&rdquo; &ldquo;CP061&rdquo; &ldquo;CP061&rdquo; &ldquo;CP061&rdquo; &ldquo;CP061&rdquo; &ldquo;CP065&rdquo; &ldquo;CP065&rdquo; &ldquo;CP066&rdquo;</h2>
+<h2 id="82-cp066-cp067-cp067-cp069-cp069-cp069-cp069-cp070-cp070">[82] &ldquo;CP066&rdquo; &ldquo;CP067&rdquo; &ldquo;CP067&rdquo; &ldquo;CP069&rdquo; &ldquo;CP069&rdquo; &ldquo;CP069&rdquo; &ldquo;CP069&rdquo; &ldquo;CP070&rdquo; &ldquo;CP070&rdquo;</h2>
+<h2 id="91-cp070-cp070-cp070-cp072-cp072-cp072-cp073-cp074-cp074">[91] &ldquo;CP070&rdquo; &ldquo;CP070&rdquo; &ldquo;CP070&rdquo; &ldquo;CP072&rdquo; &ldquo;CP072&rdquo; &ldquo;CP072&rdquo; &ldquo;CP073&rdquo; &ldquo;CP074&rdquo; &ldquo;CP074&rdquo;</h2>
+<h2 id="100-cp074-cp074-cp075-cp075-cp075-cp077-cp077-cp077-cp079">[100] &ldquo;CP074&rdquo; &ldquo;CP074&rdquo; &ldquo;CP075&rdquo; &ldquo;CP075&rdquo; &ldquo;CP075&rdquo; &ldquo;CP077&rdquo; &ldquo;CP077&rdquo; &ldquo;CP077&rdquo; &ldquo;CP079&rdquo;</h2>
+<h2 id="109-cp079-cp079-cp079-cp080-cp080-cp080-cp081-cp087-cp087">[109] &ldquo;CP079&rdquo; &ldquo;CP079&rdquo; &ldquo;CP079&rdquo; &ldquo;CP080&rdquo; &ldquo;CP080&rdquo; &ldquo;CP080&rdquo; &ldquo;CP081&rdquo; &ldquo;CP087&rdquo; &ldquo;CP087&rdquo;</h2>
+<h2 id="118-cp087-cp087-cp087-cp089-cp089-cp089-cp090-cp090-cp090">[118] &ldquo;CP087&rdquo; &ldquo;CP087&rdquo; &ldquo;CP087&rdquo; &ldquo;CP089&rdquo; &ldquo;CP089&rdquo; &ldquo;CP089&rdquo; &ldquo;CP090&rdquo; &ldquo;CP090&rdquo; &ldquo;CP090&rdquo;</h2>
+<h2 id="127-cp092-cp092-cp094-cp094-cp095-cp095-cp095-cp096-cp096">[127] &ldquo;CP092&rdquo; &ldquo;CP092&rdquo; &ldquo;CP094&rdquo; &ldquo;CP094&rdquo; &ldquo;CP095&rdquo; &ldquo;CP095&rdquo; &ldquo;CP095&rdquo; &ldquo;CP096&rdquo; &ldquo;CP096&rdquo;</h2>
+<h2 id="136-cp096-cp097-cp097-cp097-cp099-cp099-cp099-cp099-cp099">[136] &ldquo;CP096&rdquo; &ldquo;CP097&rdquo; &ldquo;CP097&rdquo; &ldquo;CP097&rdquo; &ldquo;CP099&rdquo; &ldquo;CP099&rdquo; &ldquo;CP099&rdquo; &ldquo;CP099&rdquo; &ldquo;CP099&rdquo;</h2>
+<h2 id="145-cp100-cp100-cp100-cp101-cp102-cp102">[145] &ldquo;CP100&rdquo; &ldquo;CP100&rdquo; &ldquo;CP100&rdquo; &ldquo;CP101&rdquo; &ldquo;CP102&rdquo; &ldquo;CP102&rdquo;</h2>
+<p>Note also that with return.type = &ldquo;List&rdquo; a list parallel to the chromPeaks matrix would be returned, i.e. each element in that list would contain the spectra for the chromatographic peak with the same index. This data representation might eventually simplify further processing.</p>
+<blockquote>
+<p>还要注意的是，返回。type=“List”将返回与色谱峰矩阵平行的列表，即该列表中的每个元素将包含具有相同索引的色谱峰的光谱。这种数据表示可能最终简化进一步的处理。</p>
+</blockquote>
+<p>We next use the MS2 information to aid in the annotation of a chromatographic peak. As an example we use a chromatographic peak of an ion with an m/z of 304.1131 which we extract in the code block below.</p>
+<blockquote>
+<p>接下来，我们使用MS2信息来帮助注释色谱峰。例如，我们使用m/z为304.1131的离子色谱峰，我们在下面的代码块中提取该色谱峰。</p>
+</blockquote>
+<p>ex_mz &lt;- 304.1131
+chromPeaks(dda_data, mz = ex_mz, ppm = 20)</p>
+<h2 id="mz----mzmin----mzmax------rt---rtmin---rtmax----into-----intb">mz    mzmin    mzmax      rt   rtmin   rtmax    into     intb</h2>
+<h2 id="cp057-3041133-3041126-3041143-425024-417985-441773-130408-1288414">CP057 304.1133 304.1126 304.1143 425.024 417.985 441.773 13040.8 12884.14</h2>
+<h2 id="maxo-sn-sample">maxo sn sample</h2>
+<h2 id="cp057-3978987-79------1">CP057 3978.987 79      1</h2>
+<p>A search of potential ions with a similar m/z in a reference database (e.g. Metlin) returned a large list of potential hits, most with a very small ppm. For two of the hits, Flumazenil (Metlin ID 2724) and Fenamiphos (Metlin ID 72445) experimental MS2 spectra are available. Thus, we could match the MS2 spectrum for the identified chromatographic peak against these to annotate our ion. Below we extract all MS2 spectra that were associated with the candidate chromatographic peak using the ID of the peak in the present data set.</p>
+<blockquote>
+<p>在参考数据库（例如Metlin）中搜索具有类似m/z的潜在离子时，返回了一个巨大的潜在点击列表，其中大多数具有非常小的ppm。对于其中两个点击，氟马西尼（Metlin ID 2724）和非那米磷（Metlin ID 72445）实验MS2光谱可用。因此，我们可以将已识别色谱峰的MS2光谱与这些色谱峰进行匹配，以注释我们的离子。下面，我们使用当前数据集中的峰ID提取与候选色谱峰相关的所有MS2光谱。</p>
+</blockquote>
+<p>ex_id &lt;- rownames(chromPeaks(dda_data, mz = ex_mz, ppm = 20))
+ex_spectra &lt;- dda_spectra[dda_spectra$peak_id == ex_id]
+ex_spectra</p>
+<h2 id="msn-data-spectra-with-5-spectra-in-a-msbackendmzr-backend">MSn data (Spectra) with 5 spectra in a MsBackendMzR backend:</h2>
+<h2 id="mslevel-----rtime-scanindex-1">msLevel     rtime scanIndex</h2>
+<h2 id="integer-numeric-integer-1"><integer> <numeric> <integer></h2>
+<h2 id="f1s3505---------2---418926------3505">F1.S3505         2   418.926      3505</h2>
+<h2 id="f1s3510---------2---419306------3510">F1.S3510         2   419.306      3510</h2>
+<h2 id="f1s3582---------2---423036------3582">F1.S3582         2   423.036      3582</h2>
+<h2 id="f1s3603---------2---423966------3603">F1.S3603         2   423.966      3603</h2>
+<h2 id="f1s3609---------2---424296------3609">F1.S3609         2   424.296      3609</h2>
+<h2 id="-38-more-variablescolumns-1">&hellip; 38 more variables/columns.</h2>
+<h2 id="heading-2"></h2>
+<h2 id="files-1">file(s):</h2>
+<h2 id="pestmix1_ddamzml-1">PestMix1_DDA.mzML</h2>
+<p>There are 5 MS2 spectra representing fragmentation of the ion(s) measured in our candidate chromatographic peak. We next reduce this to a single MS2 spectrum using the combineSpectra method employing the combinePeaks function to determine which peaks to keep in the resulting spectrum (have a look at the ?combinePeaks help page for details). Parameter f allows to specify which spectra in the input object should be combined into one.</p>
+<blockquote>
+<p>有5个MS2光谱代表在我们的候选色谱峰中测量的离子碎片。接下来，我们使用combinePeaks函数的combinePeaks方法将其减少为单个MS2频谱，以确定在结果频谱中保留哪些峰值（有关详细信息，请参阅？combinePeaks帮助页面）。参数f允许指定应将输入对象中的哪些光谱合并为一个。</p>
+</blockquote>
+<p>ex_spectrum &lt;- combineSpectra(ex_spectra, FUN = combinePeaks, ppm = 20,
+peaks = &ldquo;intersect&rdquo;, minProp = 0.8,
+intensityFun = median, mzFun = median,
+f = ex_spectra$peak_id)
+ex_spectrum</p>
+<h2 id="msn-data-spectra-with-1-spectra-in-a-msbackenddataframe-backend">MSn data (Spectra) with 1 spectra in a MsBackendDataFrame backend:</h2>
+<h2 id="mslevel-----rtime-scanindex-2">msLevel     rtime scanIndex</h2>
+<h2 id="integer-numeric-integer-2"><integer> <numeric> <integer></h2>
+<h2 id="f1s3505---------2---418926------3505-1">F1.S3505         2   418.926      3505</h2>
+<h2 id="-38-more-variablescolumns-2">&hellip; 38 more variables/columns.</h2>
+<h2 id="processing">Processing:</h2>
+<h2 id="switch-backend-from-msbackendmzr-to-msbackenddataframe-tue-apr-26-182530-2022">Switch backend from MsBackendMzR to MsBackendDataFrame [Tue Apr 26 18:25:30 2022]</h2>
+<p>Mass peaks from all input spectra with a difference in m/z smaller 20 ppm (parameter ppm) were combined into one peak and the median m/z and intensity is reported for these. Due to parameter minProp = 0.8, the resulting MS2 spectrum contains only peaks that were present in 80% of the input spectra.</p>
+<blockquote>
+<p>将m/z差小于20 ppm（参数ppm）的所有输入光谱的质量峰合并为一个峰，并报告这些峰的中值m/z和强度。由于参数minProp=0.8，得到的MS2光谱仅包含80%输入光谱中存在的峰值。</p>
+</blockquote>
+<p>A plot of this consensus spectrum is shown below.</p>
+<p>plotSpectra(ex_spectrum)</p>
+<p>Consensus MS2 spectrum created from all measured MS2 spectra for ions of chromatographic peak CP53.</p>
+<blockquote>
+<p>根据色谱峰CP53离子的所有测量MS2光谱创建共识MS2光谱。</p>
+</blockquote>
+<p>We could now match the consensus spectrum against a database of MS2 spectra. In our example we simply load MS2 spectra for the two compounds with matching m/z exported from Metlin. For each of the compounds MS2 spectra created with collision energies of 0V, 10V, 20V and 40V are available. Below we import the respective data and plot our candidate spectrum against the MS2 spectra of Flumanezil and Fenamiphos (from a collision energy of 20V). To import files in MGF format we have to load the MsBackendMgf R package which adds MGF file support to the Spectra package.</p>
+<blockquote>
+<p>我们现在可以将共识光谱与MS2光谱数据库进行匹配。在我们的示例中，我们只需加载两种化合物的MS2光谱，并从Metlin导出匹配的m/z。对于每种化合物，可以获得碰撞能量为0V、10V、20V和40V的MS2光谱。下面，我们导入各自的数据，并根据氟马奈齐和非那米磷的MS2光谱绘制候选光谱（来自20V碰撞能量）。要导入MGF格式的文件，我们必须加载MsBackendMgf R包，该包将MGF文件支持添加到Spectrum包中。</p>
+</blockquote>
+<p>This package can be installed with BiocManager::install(&ldquo;RforMassSpectrometry/MsBackendMgf&rdquo;).</p>
+<p>Prior plotting we normalize our experimental spectra.</p>
+<p>norm_fun &lt;- function(z, &hellip;) {
+z[, &ldquo;intensity&rdquo;] &lt;- z[, &ldquo;intensity&rdquo;] /
+max(z[, &ldquo;intensity&rdquo;], na.rm = TRUE) * 100
+z
+}
+ex_spectrum &lt;- addProcessing(ex_spectrum, FUN = norm_fun)
+library(MsBackendMgf)
+flumanezil &lt;- Spectra(
+system.file(&ldquo;mgf&rdquo;, &ldquo;metlin-2724.mgf&rdquo;, package = &ldquo;xcms&rdquo;),
+source = MsBackendMgf())</p>
+<h2 id="start-data-import-from-1-files--done">Start data import from 1 files &hellip; done</h2>
+<p>fenamiphos &lt;- Spectra(
+system.file(&ldquo;mgf&rdquo;, &ldquo;metlin-72445.mgf&rdquo;, package = &ldquo;xcms&rdquo;),
+source = MsBackendMgf())</p>
+<h2 id="start-data-import-from-1-files--done-1">Start data import from 1 files &hellip; done</h2>
+<p>par(mfrow = c(1, 2))
+plotSpectraMirror(ex_spectrum, flumanezil[3], main = &ldquo;against Flumanezil&rdquo;,
+ppm = 40)
+plotSpectraMirror(ex_spectrum, fenamiphos[3], main = &ldquo;against Fenamiphos&rdquo;,
+ppm = 40)</p>
+<p>Mirror plots for the candidate MS2 spectrum against Flumanezil (left) and Fenamiphos (right). The upper panel represents the candidate MS2 spectrum, the lower the target MS2 spectrum. Matching peaks are indicated with a dot.</p>
+<blockquote>
+<p>针对氟马奈齐（左）和非那米磷（右）的候选MS2光谱镜像图。上部面板表示候选MS2频谱，目标MS2频谱的下部。匹配峰值用点表示。</p>
+</blockquote>
+<p>Our candidate spectrum matches Fenamiphos, thus, our example chromatographic peak represents signal measured for this compound. In addition to plotting the spectra, we can also calculate similarities between them with the compareSpectra method (which uses by default the normalized dot-product to calculate the similarity).</p>
+<blockquote>
+<p>我们的候选光谱与非那米磷相匹配，因此，我们的示例色谱峰代表该化合物的测量信号。除了绘制光谱外，我们还可以使用compareSpectra方法（默认情况下使用归一化点积计算相似性）计算它们之间的相似性。</p>
+</blockquote>
+<p>compareSpectra(ex_spectrum, flumanezil, ppm = 40)</p>
+<h2 id="1-4520957e-02-3283806e-02-2049379e-03-3374354e-05">[1] 4.520957e-02 3.283806e-02 2.049379e-03 3.374354e-05</h2>
+<p>compareSpectra(ex_spectrum, fenamiphos, ppm = 40)</p>
+<h2 id="1-01326234432-04879399946-07198406271-03997922658-00004876129">[1] 0.1326234432 0.4879399946 0.7198406271 0.3997922658 0.0004876129</h2>
+<h2 id="6-00028408885-00071030051-00053809736">[6] 0.0028408885 0.0071030051 0.0053809736</h2>
+<p>Clearly, the candidate spectrum does not match Flumanezil, while it has a high similarity to Fenamiphos. While we performed here the MS2-based annotation on a single chromatographic peak, this could be easily extended to the full list of MS2 spectra (returned by chromPeakSpectra) for all chromatographic peaks in an experiment. See also here.</p>
+<blockquote>
+<p>显然，候选谱与氟马奈齐不匹配，但与非那米磷高度相似。虽然我们在这里对单个色谱峰进行了基于MS2的注释，但这可以很容易地扩展到实验中所有色谱峰的MS2光谱的完整列表（由chromPeakSpectra返回）。请参见此处。</p>
+</blockquote>
+<p>In the present example we used only a single data file and we did thus not need to perform a sample alignment and correspondence analysis. These tasks could however be performed similarly to plain LC-MS data, retention times of recorded MS2 spectra would however also be adjusted during alignment based on the MS1 data. After correspondence analysis (peak grouping) MS2 spectra for features can be extracted with the featureSpectra function which returns all MS2 spectra associated with any chromatographic peak of a feature.</p>
+<blockquote>
+<p>在本例中，我们仅使用单个数据文件，因此不需要执行样本对齐和对应分析。然而，这些任务可以类似于普通LC-MS数据来执行，然而，记录的MS2光谱的保留时间也将在基于MS1数据的校准期间进行调整。在对应分析（峰分组）后，可以使用FeatureSpectrum函数提取特征的MS2光谱，该函数返回与特征的任何色谱峰相关的所有MS2光谱。</p>
+</blockquote>
+<p>Note also that this workflow can be included into the Feature-Based Molecular Networking FBMN to match MS2 spectra against GNPS. See here for more details and examples.</p>
+<blockquote>
+<p>还请注意，该工作流可以包括在基于特征的分子网络FBMN中，以匹配MS2光谱与GNPS。有关更多详细信息和示例，请参见此处。</p>
+</blockquote>
+<h2 id="3swath-data-analysis">3SWATH data analysis</h2>
+<p>In this section we analyze a small SWATH data set consisting of a single mzML file with data from the same sample analyzed in the previous section but recorded in SWATH mode. We again read the data with the readMSData function. The resulting object will contain all recorded MS1 and MS2 spectra in the specified file.</p>
+<blockquote>
+<p>在本节中，我们分析了一个小面积数据集，该数据集由单个mzML文件组成，数据来自上一节中分析的相同样本，但以小面积模式记录。我们再次使用readMSData函数读取数据。生成的对象将包含指定文件中记录的所有MS1和MS2光谱。</p>
+</blockquote>
+<p>swath_file &lt;- system.file(&ldquo;TripleTOF-SWATH&rdquo;,
+&ldquo;PestMix1_SWATH.mzML&rdquo;,
+package = &ldquo;msdata&rdquo;)</p>
+<p>swath_data &lt;- readMSData(swath_file, mode = &ldquo;onDisk&rdquo;)
+Below we determine the number of MS level 1 and 2 spectra in the present data set.</p>
+<p>table(msLevel(swath_data))</p>
+<h2 id="heading-3"></h2>
+<h2 id="1----2-1">1    2</h2>
+<h2 id="444-3556">444 3556</h2>
+<p>As described in the introduction, in SWATH mode all ions within pre-defined isolation windows are fragmented and MS2 spectra measured. The definition of these isolation windows (SWATH pockets) is imported from the mzML files and stored in the object’s fData (which provides additional annotations for each individual spectrum). Below we inspect the respective information for the first few spectra. The upper and lower isolation window m/z can be extracted with the isolationWindowLowerMz and isolationWindowUpperMz.</p>
+<blockquote>
+<p>如引言所述，在SWATH模式下，预定义隔离窗口内的所有离子都被碎片化，并测量MS2光谱。这些隔离窗口（线束袋）的定义从mzML文件中导入，并存储在对象的fData中（该fData为每个单独的频谱提供额外的注释）。下面我们检查前几个光谱的相应信息。可以使用isolationWindowLowerMz和isolationWindowUpperMz提取上下隔离窗口m/z。</p>
+</blockquote>
+<p>head(fData(swath_data)[, c(&ldquo;isolationWindowTargetMZ&rdquo;,
+&ldquo;isolationWindowLowerOffset&rdquo;,
+&ldquo;isolationWindowUpperOffset&rdquo;,
+&ldquo;msLevel&rdquo;, &ldquo;retentionTime&rdquo;)])</p>
+<h2 id="isolationwindowtargetmz-isolationwindowloweroffset">isolationWindowTargetMZ isolationWindowLowerOffset</h2>
+<h2 id="f1s2000------------------20895----------------------2195">F1.S2000                  208.95                      21.95</h2>
+<h2 id="f1s2001------------------24405----------------------1415">F1.S2001                  244.05                      14.15</h2>
+<h2 id="f1s2002------------------27085----------------------1365">F1.S2002                  270.85                      13.65</h2>
+<h2 id="f1s2003------------------29910----------------------1560">F1.S2003                  299.10                      15.60</h2>
+<h2 id="f1s2004------------------32980----------------------1610">F1.S2004                  329.80                      16.10</h2>
+<h2 id="f1s2005------------------36735----------------------2245">F1.S2005                  367.35                      22.45</h2>
+<h2 id="isolationwindowupperoffset-mslevel-retentiontime">isolationWindowUpperOffset msLevel retentionTime</h2>
+<h2 id="f1s2000----------------------2195-------2-------200084">F1.S2000                      21.95       2       200.084</h2>
+<h2 id="f1s2001----------------------1415-------2-------200181">F1.S2001                      14.15       2       200.181</h2>
+<h2 id="f1s2002----------------------1365-------2-------200278">F1.S2002                      13.65       2       200.278</h2>
+<h2 id="f1s2003----------------------1560-------2-------200375">F1.S2003                      15.60       2       200.375</h2>
+<h2 id="f1s2004----------------------1610-------2-------200472">F1.S2004                      16.10       2       200.472</h2>
+<h2 id="f1s2005----------------------2245-------2-------200569">F1.S2005                      22.45       2       200.569</h2>
+<p>head(isolationWindowLowerMz(swath_data))</p>
+<h2 id="1-1870-2299-2572-2835-3137-3449">[1] 187.0 229.9 257.2 283.5 313.7 344.9</h2>
+<p>head(isolationWindowUpperMz(swath_data))</p>
+<h2 id="1-2309-2582-2845-3147-3459-3898">[1] 230.9 258.2 284.5 314.7 345.9 389.8</h2>
+<p>In the present data set we use the value of the isolation window target m/z to define the individual SWATH pockets. Below we list the number of spectra that are recorded in each pocket/isolation window.</p>
+<blockquote>
+<p>在当前数据集中，我们使用隔离窗口目标m/z的值来定义单个线束袋。下面我们列出了每个口袋/隔离窗口中记录的光谱数量。</p>
+</blockquote>
+<p>table(isolationWindowTargetMz(swath_data))</p>
+<h2 id="heading-4"></h2>
+<h2 id="16375-20895-24405-27085--2991--3298-36735-60185">163.75 208.95 244.05 270.85  299.1  329.8 367.35 601.85</h2>
+<h2 id="444----445----445----445----445----444----444----444">444    445    445    445    445    444    444    444</h2>
+<p>We have thus 1,000 MS2 spectra measured in each isolation window.</p>
+<h3 id="31chromatographic-peak-detection-in-ms1-and-ms2-data">3.1Chromatographic peak detection in MS1 and MS2 data</h3>
+<p>Similar to a conventional LC-MS analysis, we perform first a chromatographic peak detection (on the MS level 1 data) with the findChromPeaks method. Below we define the settings for a centWave-based peak detection and perform the analysis.</p>
+<blockquote>
+<p>与传统的LC-MS分析类似，我们首先使用findChromPeaks方法进行色谱峰检测（在MS 1级数据上）。下面我们定义了基于centWave的峰值检测的设置，并进行了分析。</p>
+</blockquote>
+<p>cwp &lt;- CentWaveParam(snthresh = 5, noise = 100, ppm = 10,
+peakwidth = c(3, 30))
+swath_data &lt;- findChromPeaks(swath_data, param = cwp)</p>
+<p>Next we perform a chromatographic peak detection in the MS level 2 data of each isolation window. We use the findChromPeaksIsolationWindow function employing the same peak detection algorithm reducing however the required signal-to-noise ratio. The isolationWindow parameter allows to specify which MS2 spectra belong to which isolation window and hence defines in which set of MS2 spectra chromatographic peak detection should be performed. While the default value for this parameter uses isolation windows provided by calling isolationWindowTargetMz on the object, it would also be possible to manually define the isolation windows, e.g. if the corresponding information is not available in the input mzML files.</p>
+<blockquote>
+<p>接下来，我们在每个隔离窗口的MS 2级数据中执行色谱峰检测。我们使用FindChromePeaksIsolationWindow函数，采用相同的峰值检测算法，但降低了所需的信噪比。isolationWindow参数允许指定哪些MS2光谱属于哪个隔离窗口，从而定义应在哪组MS2光谱中执行色谱峰检测。虽然此参数的默认值使用通过在对象上调用isolationWindowTargetMz提供的隔离窗口，但也可以手动定义隔离窗口，例如，如果输入mzML文件中没有相应的信息。</p>
+</blockquote>
+<p>cwp &lt;- CentWaveParam(snthresh = 3, noise = 10, ppm = 10,
+peakwidth = c(3, 30))
+swath_data &lt;- findChromPeaksIsolationWindow(swath_data, param = cwp)</p>
+<p>The findChromPeaksIsolationWindow function added all peaks identified in the individual isolation windows to the chromPeaks matrix containing already the MS1 chromatographic peaks. These newly added peaks can be identified by the value of the &ldquo;isolationWindow&rdquo; column in the corresponding row in chromPeakData, which lists also the MS level in which the peak was identified.</p>
+<blockquote>
+<p>FindChromePeaksIsolationWindow函数将各个隔离窗口中识别的所有峰添加到已经包含MS1色谱峰的ChromePeaks矩阵中。这些新添加的峰可以通过chromPeakData中相应行中“isolationWindow”列的值来识别，该列还列出了识别峰的MS水平。</p>
+</blockquote>
+<p>chromPeakData(swath_data)</p>
+<h2 id="dataframe-with-368-rows-and-6-columns">DataFrame with 368 rows and 6 columns</h2>
+<h2 id="ms_level-is_filled-isolationwindow-isolationwindowtargetmz">ms_level is_filled isolationWindow isolationWindowTargetMZ</h2>
+<h2 id="integer-logical--------factor---------------numeric"><integer> <logical>        <factor>               <numeric></h2>
+<h2 id="cp01----------1-----false--------------na----------------------na">CP01          1     FALSE              NA                      NA</h2>
+<h2 id="cp02----------1-----false--------------na----------------------na">CP02          1     FALSE              NA                      NA</h2>
+<h2 id="cp03----------1-----false--------------na----------------------na">CP03          1     FALSE              NA                      NA</h2>
+<h2 id="cp04----------1-----false--------------na----------------------na">CP04          1     FALSE              NA                      NA</h2>
+<h2 id="cp05----------1-----false--------------na----------------------na">CP05          1     FALSE              NA                      NA</h2>
+<h2 id="--------------------------------------------------">&hellip;         &hellip;       &hellip;             &hellip;                     &hellip;</h2>
+<h2 id="cp364---------2-----false----------60185------------------60185">CP364         2     FALSE          601.85                  601.85</h2>
+<h2 id="cp365---------2-----false----------60185------------------60185">CP365         2     FALSE          601.85                  601.85</h2>
+<h2 id="cp366---------2-----false----------60185------------------60185">CP366         2     FALSE          601.85                  601.85</h2>
+<h2 id="cp367---------2-----false----------60185------------------60185">CP367         2     FALSE          601.85                  601.85</h2>
+<h2 id="cp368---------2-----false----------60185------------------60185">CP368         2     FALSE          601.85                  601.85</h2>
+<h2 id="isolationwindowlowermz-isolationwindowuppermz">isolationWindowLowerMz isolationWindowUpperMz</h2>
+<h2 id="numeric--------------numeric"><numeric>              <numeric></h2>
+<h2 id="cp01----------------------na---------------------na">CP01                      NA                     NA</h2>
+<h2 id="cp02----------------------na---------------------na">CP02                      NA                     NA</h2>
+<h2 id="cp03----------------------na---------------------na">CP03                      NA                     NA</h2>
+<h2 id="cp04----------------------na---------------------na">CP04                      NA                     NA</h2>
+<h2 id="cp05----------------------na---------------------na">CP05                      NA                     NA</h2>
+<h2 id="------------------------------------------">&hellip;                      &hellip;                    &hellip;</h2>
+<h2 id="cp364------------------3888------------------8149">CP364                  388.8                  814.9</h2>
+<h2 id="cp365------------------3888------------------8149">CP365                  388.8                  814.9</h2>
+<h2 id="cp366------------------3888------------------8149">CP366                  388.8                  814.9</h2>
+<h2 id="cp367------------------3888------------------8149">CP367                  388.8                  814.9</h2>
+<h2 id="cp368------------------3888------------------8149">CP368                  388.8                  814.9</h2>
+<p>Below we count the number of chromatographic peaks identified within each isolation window (the number of chromatographic peaks identified in MS1 is 62).</p>
+<blockquote>
+<p>下面我们统计每个隔离窗口内识别的色谱峰数（MS1中识别的色谱峰数为62）。</p>
+</blockquote>
+<p>table(chromPeakData(swath_data)$isolationWindow)</p>
+<h2 id="heading-5"></h2>
+<h2 id="16375-20895-24405-27085--2991--3298-36735-60185-1">163.75 208.95 244.05 270.85  299.1  329.8 367.35 601.85</h2>
+<h2 id="2-----38-----32-----14----105-----23-----61-----31">2     38     32     14    105     23     61     31</h2>
+<p>We thus successfully identified chromatographic peaks in the different MS levels and isolation windows, but don’t have any actual MS2 spectra yet. These have to be reconstructed from the available chromatographic peak data which we will done in the next section.</p>
+<blockquote>
+<p>因此，我们成功地在不同的质谱水平和分离窗口中识别出色谱峰，但还没有任何实际的MS2光谱。必须根据可用色谱峰数据重建这些数据，我们将在下一节中进行。</p>
+</blockquote>
+<h3 id="32reconstruction-of-ms2-spectra">3.2Reconstruction of MS2 spectra</h3>
+<p>Identifying the signal of the fragment ions for the precursor measured by each MS1 chromatographic peak is a non-trivial task. The MS2 spectrum of the fragment ion for each MS1 chromatographic peak has to be reconstructed from the available MS2 signal (i.e. the chromatographic peaks identified in MS level 2). For SWATH data, fragment ion signal should be present in the isolation window that contains the m/z of the precursor ion and the chromatographic peak shape of the MS2 chromatographic peaks of fragment ions of a specific precursor should have a similar retention time and peak shape than the precursor’s MS1 chromatographic peak.</p>
+<blockquote>
+<p>识别每个MS1色谱峰测量的前体碎片离子的信号是一项非常重要的任务。每个MS1色谱峰的碎片离子的MS2光谱必须根据可用的MS2信号重建（即MS level 2中确定的色谱峰）。对于SWATH数据，碎片离子信号应出现在包含前体离子m/z的隔离窗口中，并且特定前体碎片离子的MS2色谱峰的色谱峰形状应具有与前体的MS1色谱峰类似的保留时间和峰形状。</p>
+</blockquote>
+<p>After detection of MS1 and MS2 chromatographic peaks has been performed, we can reconstruct the MS2 spectra using the reconstructChromPeakSpectra function. This function defines an MS2 spectrum for each MS1 chromatographic peak based on the following approach:</p>
+<blockquote>
+<p>检测到MS1和MS2色谱峰后，我们可以使用重建色度峰谱函数重建MS2光谱。该函数基于以下方法为每个MS1色谱峰定义MS2光谱：</p>
+</blockquote>
+<p>Identify MS2 chromatographic peaks in the isolation window containing the m/z of the ion (the MS1 chromatographic peak) that have approximately the same retention time than the MS1 chromatographic peak (the accepted difference in retention time can be defined with the diffRt parameter).
+Extract the MS1 chromatographic peak and all MS2 chromatographic peaks identified by the previous step and correlate the peak shapes of the candidate MS2 chromatographic peaks with the shape of the MS1 peak. MS2 chromatographic peaks with a correlation coefficient larger than minCor are retained.
+Reconstruct the MS2 spectrum using the m/z of all above selected MS2 chromatographic peaks and their intensity; each MS2 chromatographic peak selected for an MS1 peak will thus represent one mass peak in the reconstructed spectrum.</p>
+<blockquote>
+<p>在包含离子m/z的隔离窗口中识别MS2色谱峰（MS1色谱峰），其保留时间约等于MS1色谱峰（保留时间的可接受差异可通过衍射参数定义）。
+提取MS1色谱峰和上一步识别的所有MS2色谱峰，并将候选MS2色谱峰的峰形状与MS1峰的形状相关联。保留了相关系数大于minCor的MS2色谱峰。
+使用上述所有选定MS2色谱峰的m/z及其强度重建MS2光谱；因此，为MS1峰选择的每个MS2色谱峰将代表重构光谱中的一个质量峰。</p>
+</blockquote>
+<p>To illustrate this process we perform the individual steps on the example of Fenamiphos (exact mass 303.105800777 and m/z of [M+H]+ adduct 304.113077). As a first step we extract the chromatographic peak for this ion.</p>
+<p>fenamiphos_mz &lt;- 304.113077
+fenamiphos_ms1_peak &lt;- chromPeaks(swath_data, mz = fenamiphos_mz, ppm = 2)
+fenamiphos_ms1_peak</p>
+<h2 id="mz----mzmin----mzmax------rt---rtmin---rtmax-----into-----intb">mz    mzmin    mzmax      rt   rtmin   rtmax     into     intb</h2>
+<h2 id="cp34-3041124-3041121-3041126-423945-419445-428444-1069734-1068834">CP34 304.1124 304.1121 304.1126 423.945 419.445 428.444 10697.34 10688.34</h2>
+<h2 id="maxo--sn-sample">maxo  sn sample</h2>
+<h2 id="cp34-2401849-618------1">CP34 2401.849 618      1</h2>
+<p>Next we identify all MS2 chromatographic peaks that were identified in the isolation window containing the m/z of Fenamiphos. The information on the isolation window in which a chromatographic peak was identified is available in the chromPeakData (which contains arbitrary additional annotations to each individual chromatographic peak).</p>
+<blockquote>
+<p>接下来，我们确定了在含有灭胺磷m/z的隔离窗口中确定的所有MS2色谱峰。色谱峰识别的隔离窗口信息可在ChromePeakData中找到（该数据包含每个单独色谱峰的任意附加注释）。</p>
+</blockquote>
+<p>keep &lt;- chromPeakData(swath_data)$isolationWindowLowerMz &lt; fenamiphos_mz &amp;
+chromPeakData(swath_data)$isolationWindowUpperMz &gt; fenamiphos_mz
+We also require the retention time of the MS2 chromatographic peaks to be similar to the retention time of the MS1 peak and extract the corresponding peak information.</p>
+<p>keep &lt;- keep &amp;
+chromPeaks(swath_data)[, &ldquo;rtmin&rdquo;] &lt; fenamiphos_ms1_peak[, &ldquo;rt&rdquo;] &amp;
+chromPeaks(swath_data)[, &ldquo;rtmax&rdquo;] &gt; fenamiphos_ms1_peak[, &ldquo;rt&rdquo;]</p>
+<p>fenamiphos_ms2_peak &lt;- chromPeaks(swath_data)[which(keep), ]</p>
+<p>In total 24 MS2 chromatographic peaks match all the above condition. Next we extract their corresponding ion chromatograms, as well as the ion chromatogram of the MS1 peak. In addition we have to filter the object first by isolation window, keeping only spectra that were measured in that specific window and to specify to extract the chromatographic data from MS2 spectra (with msLevel = 2L).</p>
+<blockquote>
+<p>总共24个MS2色谱峰符合上述所有条件。接下来，我们提取其相应的离子色谱图，以及MS1峰的离子色谱图。此外，我们必须首先通过隔离窗口过滤对象，仅保留在该特定窗口中测量的光谱，并指定从MS2光谱中提取色谱数据（msLevel=2L）。</p>
+</blockquote>
+<p>rtr &lt;- fenamiphos_ms1_peak[, c(&ldquo;rtmin&rdquo;, &ldquo;rtmax&rdquo;)]
+mzr &lt;- fenamiphos_ms1_peak[, c(&ldquo;mzmin&rdquo;, &ldquo;mzmax&rdquo;)]
+fenamiphos_ms1_chr &lt;- chromatogram(swath_data, rt = rtr, mz = mzr)</p>
+<p>rtr &lt;- fenamiphos_ms2_peak[, c(&ldquo;rtmin&rdquo;, &ldquo;rtmax&rdquo;)]
+mzr &lt;- fenamiphos_ms2_peak[, c(&ldquo;mzmin&rdquo;, &ldquo;mzmax&rdquo;)]
+fenamiphos_ms2_chr &lt;- chromatogram(
+filterIsolationWindow(swath_data, mz = fenamiphos_mz),
+rt = rtr, mz = mzr, msLevel = 2L)</p>
+<p>We can now plot the extracted ion chromatogram of the MS1 and the extracted MS2 data.</p>
+<p>plot(rtime(fenamiphos_ms1_chr[1, 1]),
+intensity(fenamiphos_ms1_chr[1, 1]),
+xlab = &ldquo;retention time [s]&rdquo;, ylab = &ldquo;intensity&rdquo;, pch = 16,
+ylim = c(0, 5000), col = &ldquo;blue&rdquo;, type = &ldquo;b&rdquo;, lwd = 2)
+#' Add data from all MS2 peaks
+tmp &lt;- lapply(fenamiphos_ms2_chr@.Data,
+function(z) points(rtime(z), intensity(z),
+col = &ldquo;#00000080&rdquo;,
+type = &ldquo;b&rdquo;, pch = 16))</p>
+<p>Extracted ion chromatograms for Fenamiphos from MS1 (blue) and potentially related signal in MS2 (grey).</p>
+<blockquote>
+<p>从MS1（蓝色）和MS2（灰色）中潜在相关信号中提取非那米磷的离子色谱图。</p>
+</blockquote>
+<p>Next we can calculate correlations between the peak shapes of each MS2 chromatogram with the MS1 peak. We perform the correlation below for one of the MS2 chromatographic peaks. Note that, because spectra are recorded consecutively, the retention times of the individual data points will differ for the MS2 and MS1 chromatographic data and data points have thus to be matched (aligned) before performing the correlation analysis. This is done automatically by the correlate function. See the help for the align method for more information on alignment options.</p>
+<blockquote>
+<p>接下来，我们可以计算每个MS2色谱图的峰形状与MS1峰之间的相关性。我们对其中一个MS2色谱峰进行以下关联。注意，由于光谱是连续记录的，MS2和MS1色谱数据的各个数据点的保留时间将不同，因此在执行相关分析之前，必须匹配（对齐）数据点。这是由correlate函数自动完成的。有关对齐选项的详细信息，请参阅对齐方法的帮助。</p>
+</blockquote>
+<p>correlate(fenamiphos_ms2_chr[1, 1],
+fenamiphos_ms1_chr[1, 1], align = &ldquo;approx&rdquo;)</p>
+<h2 id="warning-local-is-deprecated">Warning: &lsquo;.local&rsquo; is deprecated.</h2>
+<h2 id="use-comparechromatograms-instead">Use &lsquo;compareChromatograms&rsquo; instead.</h2>
+<h2 id="see-helpdeprecated">See help(&ldquo;Deprecated&rdquo;)</h2>
+<h2 id="1-09997871">[1] 0.9997871</h2>
+<p>After identifying the MS2 chromatographic peaks with shapes of enough high similarity to the MS1 chromatographic peaks, an MS2 spectrum could be reconstructed based on the m/z and intensities of the MS2 chromatographic peaks.</p>
+<blockquote>
+<p>在识别出形状与MS1色谱峰高度相似的MS2色谱峰后，可以根据MS2色谱峰的m/z和强度重建MS2光谱。</p>
+</blockquote>
+<p>The reconstructChromPeakSpectra function performs the above analysis for each individual MS1 chromatographic peak in a SWATH data set. Below we reconstruct MS2 spectra for our example data requiring a peak shape correlation higher than 0.9 between the candidate MS2 chromatographic peak and the target MS1 chromatographic peak. Again, we use return.type = &ldquo;Spectra&rdquo; to return the results as a Spectra object (instead to the default, but older/obsolete MSpectra object).</p>
+<blockquote>
+<p>重建色度峰值谱函数对SWATH数据集中的每个单独MS1色谱峰执行上述分析。下面，我们为我们的示例数据重建MS2光谱，该示例数据要求候选MS2色谱峰和目标MS1色谱峰之间的峰形相关性高于0.9。同样，我们使用return。键入=“Spectra”以将结果作为Spectra对象返回（改为默认值，但为较旧/过时的MSSpectra对象）。</p>
+</blockquote>
+<p>swath_spectra &lt;- reconstructChromPeakSpectra(swath_data, minCor = 0.9,
+return.type = &ldquo;Spectra&rdquo;)
+swath_spectra</p>
+<h2 id="msn-data-spectra-with-62-spectra-in-a-msbackenddataframe-backend">MSn data (Spectra) with 62 spectra in a MsBackendDataFrame backend:</h2>
+<h2 id="mslevel-----rtime-scanindex-3">msLevel     rtime scanIndex</h2>
+<h2 id="integer-numeric-integer-3"><integer> <numeric> <integer></h2>
+<h2 id="1-----------2---239458--------na">1           2   239.458        NA</h2>
+<h2 id="2-----------2---240358--------na">2           2   240.358        NA</h2>
+<h2 id="3-----------2---329577--------na">3           2   329.577        NA</h2>
+<h2 id="4-----------2---329771--------na">4           2   329.771        NA</h2>
+<h2 id="5-----------2---346164--------na">5           2   346.164        NA</h2>
+<h2 id="---------------------">&hellip;       &hellip;       &hellip;       &hellip;</h2>
+<h2 id="58----------2---551735--------na">58          2   551.735        NA</h2>
+<h2 id="59----------2---551735--------na">59          2   551.735        NA</h2>
+<h2 id="60----------2---575134--------na">60          2   575.134        NA</h2>
+<h2 id="61----------2---575134--------na">61          2   575.134        NA</h2>
+<h2 id="62----------2---574942--------na">62          2   574.942        NA</h2>
+<h2 id="-20-more-variablescolumns">&hellip; 20 more variables/columns.</h2>
+<h2 id="processing-1">Processing:</h2>
+<h2 id="merge-1-spectra-into-one-tue-apr-26-182601-2022">Merge 1 Spectra into one [Tue Apr 26 18:26:01 2022]</h2>
+<p>As a result we got a Spectra object of length equal to the number of MS1 peaks in our data. A peaksCount of 0 indicates that no MS2 spectrum could be defined based on the used settings. For reconstructed spectra additional annotations are available such as the IDs of the MS2 chromatographic peaks from which the spectrum was reconstructed (&ldquo;ms2_peak_id&rdquo;) as well as the correlation coefficient of their chromatographic peak shape with the precursor’s shape (&ldquo;ms2_peak_cor&rdquo;). Metadata column &ldquo;peak_id&rdquo; contains the ID of the MS1 chromatographic peak:</p>
+<blockquote>
+<p>因此，我们得到了一个长度等于数据中MS1峰数的光谱对象。峰值计数为0表示无法根据所用设置定义MS2频谱。对于重建的光谱，可以使用其他注释，例如重建光谱的MS2色谱峰的id（“MS2\u peak\u id”）以及其色谱峰形状与前体形状的相关系数（“MS2\u peak\u cor”）。元数据列“peak_id”包含MS1色谱峰的id：</p>
+</blockquote>
+<p>swath_spectra$ms2_peak_id</p>
+<h2 id="characterlist-of-length-62">CharacterList of length 62</h2>
+<h2 id="1-character0">[[1]] character(0)</h2>
+<h2 id="2-character0">[[2]] character(0)</h2>
+<h2 id="3-cp063">[[3]] CP063</h2>
+<h2 id="4-cp105">[[4]] CP105</h2>
+<h2 id="5-cp153">[[5]] CP153</h2>
+<h2 id="6-character0">[[6]] character(0)</h2>
+<h2 id="7-character0">[[7]] character(0)</h2>
+<h2 id="8-character0">[[8]] character(0)</h2>
+<h2 id="9-character0">[[9]] character(0)</h2>
+<h2 id="10-character0">[[10]] character(0)</h2>
+<h2 id="heading-6">&hellip;</h2>
+<h2 id="52-more-elements">&lt;52 more elements&gt;</h2>
+<p>swath_spectra$peak_id</p>
+<h2 id="1-cp01-cp02-cp03-cp04-cp05-cp06-cp07-cp08-cp09-cp10">[1] &ldquo;CP01&rdquo; &ldquo;CP02&rdquo; &ldquo;CP03&rdquo; &ldquo;CP04&rdquo; &ldquo;CP05&rdquo; &ldquo;CP06&rdquo; &ldquo;CP07&rdquo; &ldquo;CP08&rdquo; &ldquo;CP09&rdquo; &ldquo;CP10&rdquo;</h2>
+<h2 id="11-cp11-cp12-cp13-cp14-cp15-cp16-cp17-cp18-cp19-cp20">[11] &ldquo;CP11&rdquo; &ldquo;CP12&rdquo; &ldquo;CP13&rdquo; &ldquo;CP14&rdquo; &ldquo;CP15&rdquo; &ldquo;CP16&rdquo; &ldquo;CP17&rdquo; &ldquo;CP18&rdquo; &ldquo;CP19&rdquo; &ldquo;CP20&rdquo;</h2>
+<h2 id="21-cp21-cp22-cp23-cp24-cp25-cp26-cp27-cp28-cp29-cp30">[21] &ldquo;CP21&rdquo; &ldquo;CP22&rdquo; &ldquo;CP23&rdquo; &ldquo;CP24&rdquo; &ldquo;CP25&rdquo; &ldquo;CP26&rdquo; &ldquo;CP27&rdquo; &ldquo;CP28&rdquo; &ldquo;CP29&rdquo; &ldquo;CP30&rdquo;</h2>
+<h2 id="31-cp31-cp32-cp33-cp34-cp35-cp36-cp37-cp38-cp39-cp40">[31] &ldquo;CP31&rdquo; &ldquo;CP32&rdquo; &ldquo;CP33&rdquo; &ldquo;CP34&rdquo; &ldquo;CP35&rdquo; &ldquo;CP36&rdquo; &ldquo;CP37&rdquo; &ldquo;CP38&rdquo; &ldquo;CP39&rdquo; &ldquo;CP40&rdquo;</h2>
+<h2 id="41-cp41-cp42-cp43-cp44-cp45-cp46-cp47-cp48-cp49-cp50">[41] &ldquo;CP41&rdquo; &ldquo;CP42&rdquo; &ldquo;CP43&rdquo; &ldquo;CP44&rdquo; &ldquo;CP45&rdquo; &ldquo;CP46&rdquo; &ldquo;CP47&rdquo; &ldquo;CP48&rdquo; &ldquo;CP49&rdquo; &ldquo;CP50&rdquo;</h2>
+<h2 id="51-cp51-cp52-cp53-cp54-cp55-cp56-cp57-cp58-cp59-cp60">[51] &ldquo;CP51&rdquo; &ldquo;CP52&rdquo; &ldquo;CP53&rdquo; &ldquo;CP54&rdquo; &ldquo;CP55&rdquo; &ldquo;CP56&rdquo; &ldquo;CP57&rdquo; &ldquo;CP58&rdquo; &ldquo;CP59&rdquo; &ldquo;CP60&rdquo;</h2>
+<h2 id="61-cp61-cp62">[61] &ldquo;CP61&rdquo; &ldquo;CP62&rdquo;</h2>
+<p>We next extract the MS2 spectrum for our example peak most likely representing [M+H]+ ions of Fenamiphos using its chromatographic peak ID:</p>
+<p>fenamiphos_swath_spectrum &lt;- swath_spectra[
+swath_spectra$peak_id == rownames(fenamiphos_ms1_peak)]</p>
+<p>We can now compare the reconstructed spectrum to the example consensus spectrum from the DDA experiment in the previous section (variable ex_spectrum) as well as to the MS2 spectrum for Fenamiphos from Metlin (with a collision energy of 10V). For better visualization we normalize also the peak intensities of the reconstructed SWATH spectrum with the same function we used for the experimental DDA spectrum.</p>
+<blockquote>
+<p>现在，我们可以将重建的光谱与上一节DDA实验中的示例一致光谱（可变ex_光谱）以及Metlin的非那米磷MS2光谱（碰撞能量为10V）进行比较。为了更好地可视化，我们还使用与实验DDA光谱相同的函数对重建的条带光谱的峰值强度进行归一化。</p>
+</blockquote>
+<p>fenamiphos_swath_spectrum &lt;- addProcessing(fenamiphos_swath_spectrum,
+norm_fun)
+par(mfrow = c(1, 2))
+plotSpectraMirror(fenamiphos_swath_spectrum, ex_spectrum,
+ppm = 50, main = &ldquo;against DDA&rdquo;)
+plotSpectraMirror(fenamiphos_swath_spectrum, fenamiphos[2],
+ppm = 50, main = &ldquo;against Metlin&rdquo;)</p>
+<p>Mirror plot comparing the reconstructed MS2 spectrum for Fenamiphos (upper panel) against the measured spectrum from the DDA data and the Fenamiphhos spectrum from Metlin.
+Figure 4: Mirror plot comparing the reconstructed MS2 spectrum for Fenamiphos (upper panel) against the measured spectrum from the DDA data and the Fenamiphhos spectrum from Metlin
+If we wanted to get the EICs for the MS2 chromatographic peaks used to generate this MS2 spectrum we can use the IDs of these peaks which are provided with $ms2_peak_id of the result spectrum.</p>
+<blockquote>
+<p>镜像图，将重建的非那米磷MS2光谱（上面板）与DDA数据的测量光谱和Metlin的非那米磷光谱进行比较。
+图4：镜像图，将非那米磷重建的MS2光谱（上面板）与DDA数据的测量光谱和Metlin的非那米磷光谱进行比较
+如果我们想要获得用于生成该MS2光谱的MS2色谱峰的EIC，我们可以使用这些峰的id，这些峰的id随结果光谱的$MS2\u peak\u id提供。</p>
+</blockquote>
+<p>pk_ids &lt;- fenamiphos_swath_spectrum$ms2_peak_id[[1]]
+pk_ids</p>
+<h2 id="1-cp199-cp201-cp211-cp208-cp200-cp202-cp217-cp215-cp205">[1] &ldquo;CP199&rdquo; &ldquo;CP201&rdquo; &ldquo;CP211&rdquo; &ldquo;CP208&rdquo; &ldquo;CP200&rdquo; &ldquo;CP202&rdquo; &ldquo;CP217&rdquo; &ldquo;CP215&rdquo; &ldquo;CP205&rdquo;</h2>
+<h2 id="10-cp212-cp221-cp223-cp213-cp207-cp220">[10] &ldquo;CP212&rdquo; &ldquo;CP221&rdquo; &ldquo;CP223&rdquo; &ldquo;CP213&rdquo; &ldquo;CP207&rdquo; &ldquo;CP220&rdquo;</h2>
+<p>With these peak IDs available we can extract their retention time window and m/z ranges from the chromPeaks matrix and use the chromatogram function to extract their EIC. Note however that for SWATH data we have MS2 signal from different isolation windows. Thus we have to first filter the swath_data object by the isolation window containing the precursor m/z with the filterIsolationWindow to subset the data to MS2 spectra related to the ion of interest. In addition, we have to use msLevel = 2L in the chromatogram call because chromatogram extracts by default only data from MS1 spectra.</p>
+<blockquote>
+<p>有了这些峰ID，我们可以从色谱峰矩阵中提取其保留时间窗口和m/z范围，并使用色谱功能提取其EIC。然而，请注意，对于小水线带数据，我们有来自不同隔离窗口的MS2信号。因此，我们必须首先通过包含前体m/z的隔离窗口和filterIsolationWindow对swath_数据对象进行过滤，以将数据子集到与感兴趣离子相关的MS2光谱。此外，我们必须在色谱调用中使用msLevel=2L，因为色谱默认仅从MS1光谱中提取数据。</p>
+</blockquote>
+<p>rt_range &lt;- chromPeaks(swath_data)[pk_ids, c(&ldquo;rtmin&rdquo;, &ldquo;rtmax&rdquo;)]
+mz_range &lt;- chromPeaks(swath_data)[pk_ids, c(&ldquo;mzmin&rdquo;, &ldquo;mzmax&rdquo;)]</p>
+<p>pmz &lt;- precursorMz(fenamiphos_swath_spectrum)[1]
+swath_data_iwindow &lt;- filterIsolationWindow(swath_data, mz = pmz)</p>
+<h2 id="warning-in-objectkeep-removed-preprocessing-results">Warning in object[keep]: Removed preprocessing results</h2>
+<p>ms2_eics &lt;- chromatogram(swath_data_iwindow, rt = rt_range,
+mz = mz_range, msLevel = 2L)</p>
+<p>Each row of this ms2_eics contains now the EIC of one of the MS2 chromatographic peaks.</p>
+<p>As a second example we analyze the signal from an [M+H]+ ion with an m/z of 376.0381 (which would match Prochloraz). We first identify the MS1 chromatographic peak for that m/z and retrieve the reconstructed MS2 spectrum for that peak.</p>
+<blockquote>
+<p>该ms2_EIC的每一行现在包含一个ms2色谱峰的EIC。
+作为第二个例子，我们分析了M/z为376.0381（与咪鲜胺匹配）的[M+H]+离子的信号。我们首先确定该m/z的MS1色谱峰，并检索该峰的重建MS2光谱。</p>
+</blockquote>
+<p>prochloraz_mz &lt;- 376.0381</p>
+<p>prochloraz_ms1_peak &lt;- chromPeaks(swath_data, msLevel = 1L,
+mz = prochloraz_mz, ppm = 5)
+prochloraz_ms1_peak</p>
+<h2 id="mz---mzmin----mzmax------rt---rtmin---rtmax-----into-----intb">mz   mzmin    mzmax      rt   rtmin   rtmax     into     intb</h2>
+<h2 id="cp22-3760373-376037-3760374-405046-401446-409546-3664051-3655951">CP22 376.0373 376.037 376.0374 405.046 401.446 409.546 3664.051 3655.951</h2>
+<h2 id="maxo--sn-sample-1">maxo  sn sample</h2>
+<h2 id="cp22-8973923-278------1">CP22 897.3923 278      1</h2>
+<p>prochloraz_swath_spectrum &lt;- swath_spectra[
+swath_spectra$peak_id == rownames(prochloraz_ms1_peak)]
+In addition we identify the corresponding MS1 peak in the DDA data set, extract all measured MS2 chromatographic peaks and build the consensus spectrum from these.</p>
+<p>prochloraz_dda_peak &lt;- chromPeaks(dda_data, msLevel = 1L,
+mz = prochloraz_mz, ppm = 5)
+prochloraz_dda_peak</p>
+<h2 id="mz----mzmin----mzmax------rt---rtmin---rtmax-----into-----intb-1">mz    mzmin    mzmax      rt   rtmin   rtmax     into     intb</h2>
+<h2 id="cp034-3760385-3760378-3760391-405715-400346-410555-5088528-5078727">CP034 376.0385 376.0378 376.0391 405.715 400.346 410.555 5088.528 5078.727</h2>
+<h2 id="maxo--sn-sample-2">maxo  sn sample</h2>
+<h2 id="cp034-1350633-436------1">CP034 1350.633 436      1</h2>
+<p>The retention times for the chromatographic peaks from the DDA and SWATH data match almost perfectly. Next we get the MS2 spectra for this peak.</p>
+<blockquote>
+<p>DDA和SWATH数据中色谱峰的保留时间几乎完全匹配。接下来我们得到这个峰的MS2光谱。</p>
+</blockquote>
+<p>prochloraz_dda_spectra &lt;- dda_spectra[
+dda_spectra$peak_id == rownames(prochloraz_dda_peak)]
+prochloraz_dda_spectra</p>
+<h2 id="msn-data-spectra-with-5-spectra-in-a-msbackendmzr-backend-1">MSn data (Spectra) with 5 spectra in a MsBackendMzR backend:</h2>
+<h2 id="mslevel-----rtime-scanindex-4">msLevel     rtime scanIndex</h2>
+<h2 id="integer-numeric-integer-4"><integer> <numeric> <integer></h2>
+<h2 id="f1s3253---------2---401438------3253">F1.S3253         2   401.438      3253</h2>
+<h2 id="f1s3259---------2---402198------3259">F1.S3259         2   402.198      3259</h2>
+<h2 id="f1s3306---------2---404677------3306">F1.S3306         2   404.677      3306</h2>
+<h2 id="f1s3316---------2---405127------3316">F1.S3316         2   405.127      3316</h2>
+<h2 id="f1s3325---------2---405877------3325">F1.S3325         2   405.877      3325</h2>
+<h2 id="-38-more-variablescolumns-3">&hellip; 38 more variables/columns.</h2>
+<h2 id="heading-7"></h2>
+<h2 id="files-2">file(s):</h2>
+<h2 id="pestmix1_ddamzml-2">PestMix1_DDA.mzML</h2>
+<p>In total 5 spectra were measured, some with a relatively high number of peaks. Next we combine them into a consensus spectrum.</p>
+<blockquote>
+<p>共测量了5个光谱，其中一些具有相对较高的峰数。接下来，我们将它们组合成一个共识谱。</p>
+</blockquote>
+<p>prochloraz_dda_spectrum &lt;- combineSpectra(
+prochloraz_dda_spectra, FUN = combinePeaks, ppm = 20,
+peaks = &ldquo;intersect&rdquo;, minProp = 0.8, intensityFun = median, mzFun = median,
+f = prochloraz_dda_spectra$peak_id)</p>
+<h2 id="backend-of-the-input-object-is-read-only-will-change-that-to-an-msbackenddataframe">Backend of the input object is read-only, will change that to an &lsquo;MsBackendDataFrame&rsquo;</h2>
+<h2 id="at-last-we-load-also-the-prochloraz-ms2-spectra-for-different-collision-energies-from-metlin">At last we load also the Prochloraz MS2 spectra (for different collision energies) from Metlin.</h2>
+<p>prochloraz &lt;- Spectra(
+system.file(&ldquo;mgf&rdquo;, &ldquo;metlin-68898.mgf&rdquo;, package = &ldquo;xcms&rdquo;),
+source = MsBackendMgf())</p>
+<h2 id="start-data-import-from-1-files--done-2">Start data import from 1 files &hellip; done</h2>
+<p>To validate the reconstructed spectrum we plot it against the corresponding DDA spectrum and the MS2 spectrum for Prochloraz (for a collision energy of 10V) from Metlin.</p>
+<blockquote>
+<p>为了验证重建的光谱，我们将其与Metlin的相应DDA光谱和咪鲜胺的MS2光谱（碰撞能量为10V）进行了对比。</p>
+</blockquote>
+<p>prochloraz_swath_spectrum &lt;- addProcessing(prochloraz_swath_spectrum, norm_fun)
+prochloraz_dda_spectrum &lt;- addProcessing(prochloraz_dda_spectrum, norm_fun)</p>
+<p>par(mfrow = c(1, 2))
+plotSpectraMirror(prochloraz_swath_spectrum, prochloraz_dda_spectrum,
+ppm = 40, main = &ldquo;against DDA&rdquo;)
+plotSpectraMirror(prochloraz_swath_spectrum, prochloraz[2],
+ppm = 40, main = &ldquo;against Metlin&rdquo;)</p>
+<p>Mirror plot comparing the reconstructed MS2 spectrum for Prochloraz (upper panel) against the measured spectrum from the DDA data and the Prochloraz spectrum from Metlin.</p>
+<p>The spectra fit relatively well. Interestingly, the peak representing the precursor (the right-most peak) seems to have a slightly shifted m/z value in the reconstructed spectrum.</p>
+<p>Similar to the DDA data, the reconstructed MS2 spectra from SWATH data could be used in the annotation of the MS1 chromatographic peaks.</p>
+<blockquote>
+<p>镜像图，将咪鲜胺（上面板）的重建MS2光谱与DDA数据的测量光谱和Metlin的咪鲜胺光谱进行比较。
+光谱拟合相对较好。有趣的是，代表前体的峰（最右边的峰）在重建的光谱中似乎有轻微的移动m/z值。
+与DDA数据类似，从SWATH数据重建的MS2光谱可用于注释MS1色谱峰。</p>
+</blockquote>
+<h2 id="4outlook">4Outlook</h2>
+<p>Currently, spectra data representation, handling and processing is being re-implemented as part of the RforMassSpectrometry initiative aiming at increasing the performance of methods and simplifying their use. Thus, parts of the workflow described here will be changed (improved) in future.</p>
+<blockquote>
+<p>目前，光谱数据表示、处理和处理正在重新实施，作为rformasspectronics倡议的一部分，旨在提高方法的性能并简化其使用。因此，这里描述的部分工作流程将在将来进行更改（改进）。</p>
+</blockquote>
+<p>Along with these developments, improved matching strategies for larger data sets will be implemented as well as functionality to compare Spectra directly to reference MS2 spectra from public annotation resources (e.g. Massbank or HMDB). See for example here for more information.</p>
+<blockquote>
+<p>随着这些发展，将实施更大数据集的改进匹配策略，以及直接将光谱与公共注释资源（例如Massbank或HMDB）中的参考MS2光谱进行比较的功能。有关更多信息，请参阅此处的示例。</p>
+</blockquote>
+<p>Regarding SWATH data analysis, future development will involve improved selection of the correct MS2 chromatographic peaks considering also correlation with intensity values across several samples.</p>
+<blockquote>
+<p>关于SWATH数据分析，未来的发展将涉及改进正确MS2色谱峰的选择，同时考虑到与多个样本的强度值的相关性。</p>
+</blockquote>
+<h2 id="references">References</h2>
+<ol>
+<li>Ludwig C, Gillet L, Rosenberger G, Amon S, Collins BC, Aebersold R: Data-independent acquisition-based SWATH-MS for quantitative proteomics: a tutorial. Molecular systems biology 2018, 14:e8126.</li>
+</ol>
+</div>
+    <div class="post__footer">
+      
+
+      
+    </div>
+
+    
+  </div>
+
+      </main>
+    </div><footer class="footer footer__base">
+  <ul class="footer__list">
+    <li class="footer__item">
+      &copy;
+      
+        2020-2023
+      
+    </li>
+    
+      <li class="footer__item">
+        <a
+          class="link"
+          href="/imprint/"
+          
+          title=""
+        >
+          imprint
+        </a>
+      </li>
+    
+  </ul>
+</footer>
+  
+  <script
+    type="text/javascript"
+    src="/js/medium-zoom.min.fae9ac8895995fe91958b3954be11e96025824a04770726a3531e119ddd2d576.js"
+    integrity="sha256-&#43;umsiJWZX&#43;kZWLOVS&#43;EelgJYJKBHcHJqNTHhGd3S1XY="
+    crossorigin="anonymous"
+  ></script></body>
+</html>

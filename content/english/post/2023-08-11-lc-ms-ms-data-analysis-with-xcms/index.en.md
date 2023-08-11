@@ -1,13 +1,18 @@
 ---
-title: "LC-MS/MS data analysis with xcms"
-author: "fallingstar"
-date: "2022-07-27"
-output: word_document
+title: 翻译|LC-MS/MS data analysis with xcms
+author: zhengyanhua
+date: '2023-08-11'
+slug: []
+categories: []
+tags:
+  - bioconductor workflow
+Description: ''
+Tags: []
+Categories: []
+DisableComments: no
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
+
 
 # LC-MS/MS data analysis with xcms
 
@@ -674,4 +679,5 @@ Regarding SWATH data analysis, future development will involve improved selectio
 
 ## References
 1. Ludwig C, Gillet L, Rosenberger G, Amon S, Collins BC, Aebersold R: Data-independent acquisition-based SWATH-MS for quantitative proteomics: a tutorial. Molecular systems biology 2018, 14:e8126.
+
 

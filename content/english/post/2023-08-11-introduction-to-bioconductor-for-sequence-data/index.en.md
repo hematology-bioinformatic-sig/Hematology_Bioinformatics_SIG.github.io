@@ -1,13 +1,18 @@
 ---
-title: "sequencingworkflow|翻译"
-author: "fallingstar"
-date: "2022-07-28"
-output: word_document
+title: 翻译|Introduction to Bioconductor for Sequence Data
+author: zhengyanhua
+date: '2023-08-11'
+slug: []
+categories: []
+tags:
+  - bioconductor workflow
+Description: ''
+Tags: []
+Categories: []
+DisableComments: no
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
+
 
 # Introduction to Bioconductor for Sequence Data
 > Sonali Arora1* and Martin Morgan2**

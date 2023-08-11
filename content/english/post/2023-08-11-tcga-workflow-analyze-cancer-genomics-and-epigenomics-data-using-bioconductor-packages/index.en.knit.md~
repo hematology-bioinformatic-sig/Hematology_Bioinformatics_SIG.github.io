@@ -1,0 +1,43 @@
+---
+title: '翻译|TCGA Workflow: Analyze cancer genomics and epigenomics data using Bioconductor
+  packages'
+author: zhengyanhua
+date: '2023-08-11'
+slug: []
+categories: []
+tags:
+  - bioconductor workflow
+Description: ''
+Tags: []
+Categories: []
+DisableComments: no
+---
+
+
+
+# TCGA Workflow: Analyze cancer genomics and epigenomics data using Bioconductor packages
+
+> Tiago Chedraoui Silva1*, Antonio Colaprico2,3**, Catharina Olsen2,3***, Fulvio D'Angelo4,5, Gianluca Bontempi3, Michele Ceccarelli6,7 and Houtan Noushmehr1,8
+>
+> 2022-01-07
+
+# Environment
+
+**R version**: R Under development (unstable) (2022-01-05 r81451)
+
+**Bioconductor version**: 3.15
+
+**Package**: 1.19.1
+
+# About
+
+This workflow is based on the article: [TCGA Workflow: Analyze cancer genomics and epigenomics data using Bioconductor packages](https://f1000research.com/articles/5-1542/v2) (Silva et al. 2016). Due to time and space limitations, we downloaded only a subset of the data, for a real analysis please use all data available. The data used in the examples are available in the package [*TCGAWorkflowData*](https://bioconductor.org/packages/3.15/TCGAWorkflowData). \> 由于时间与空间的限制，我们在本workflow中仅使用了一部分原始数据作为分析示例。
+
+## Installation
+
+To be able to execute all the steps of this workflow please install it with the following code:
+
+
+
+
+
