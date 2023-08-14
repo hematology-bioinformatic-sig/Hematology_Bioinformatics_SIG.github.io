@@ -12,6 +12,11 @@ Categories: []
 DisableComments: no
 ---
 
+#### 如何加入我们&如何作出贡献
+
+1. 我们的组织地址：https://gitee.com/Hematology_Bioinformatics_SIG,点击右上角申请加入。
+2. 我们的代码仓库和本博客仓库都是开放的，请自由地提交commit或pull request。
+
 #### to-dos
 
 For more options,visit [bioconductor](http://www.bioconductor.org/packages/release/BiocViews.html#___Workflow)
